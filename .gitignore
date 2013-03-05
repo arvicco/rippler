@@ -1,8 +1,11 @@
+.DS_Store
+
 *.gem
 *.rbc
 .bundle
-.config
 .yardoc
+.config
+config
 Gemfile.lock
 InstalledFiles
 _yardoc
@@ -15,3 +18,4 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+log
