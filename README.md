@@ -1,6 +1,6 @@
 # Rippler
 
-TODO: Write a gem description
+Command line client for Ripple payment platform. It uses Ripple websocket API to send commands and receive responses.
 
 ## Installation
 

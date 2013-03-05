@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Rippler::VERSION
   gem.authors       = ["arvicco"]
   gem.email         = ["arvicco@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Command line client for Ripple payment platform}
+  gem.summary       = %q{Command line client for Ripple payment platform, uses websocket API}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
