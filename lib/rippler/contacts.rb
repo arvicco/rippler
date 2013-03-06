@@ -1,0 +1,80 @@
+module Rippler
+  Contacts = Hash[ *%W[
+    weex_btc            rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi
+    bitstamp            rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B
+    bitstamp_hotwallet  rrpNnNLKrartuEqfJGpqyDwPj1AFPg9vn1
+    weex_btc            rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi
+    weex_aud            rBcYpuDT1aXNo4jnqczWJTytKGdBGufsre
+    weex_cad            r47RkFi1Ew3LvCNKT6ufw3ZCyj5AJiLHi9
+    weex_usd            r9vbV3EHvXWjSkeQ6CAcYVPGeq7TuiXY2X
+    molecular           rpH3zuMch2GrrYX724xGWwbMGwiQ5RbSAU
+    arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
+    cambda-1            rBBSghHNdpbBuT5kiGruX5TjofWLF2fi74
+    paysafecardbitcoin  rN4kvobWCZVSzgLmo27B4kMjakAL31pMSr
+    Lethn               r4DpNXFTohg1hgBKxrYv8YBtahKNAALjeH
+    nikkus              rUhcZuPQBrykExj1VSfLnaeLdu2hJmVe9e
+    filharvey           rJRFxWe3KxmhMfW7am5hFE9pkciAJHefeD
+    ablewasiereisawelba rPtTbUkhLZ9e2a7H3TCHcHmSa35jTnQHoa
+    luffy               r3mjrPe1S4vHe2g6CTCeb6ezcPfpDywQAs
+    thepwnorbpwnd       rLQ1WWeCVuM523iMRC9PCLpyFU8YkWqDdR
+    lightlord           raAw68E3T6Eh4h5Qfb1ZxsWzyHkY8BZJRN
+    Wolf0               rwcpov2ZZmPpo6sjeg4n2oZx94uAYBQ21o
+    thepickingpair      rht576qwyKXZ26JEGHYpC3N3atjNS8oM5j
+    Luceo               rGZL3cCV6Er5Tiag9tStGhseF4NDBxbxQr
+    21after2            rwuoJnBP4kyfR6Bry8ruLNyxubuk37w6gi
+    t.o.m.              r4b5wQJL9qfqGZA6WQksE9spuYi4fmgDde
+    octopus             r33dwR8VbfDvHptF2AYzp9JHjR7iVetqM
+    MichaelBliss        rB2VLRRZejCMpDCyvGNn4nEHRLycwY7H8z
+    nckfor              rD2yesqWXxgEztU6khSjts7tx8CF6VN3k3
+    FirewallXIII        rEvYxDNoz8aFSRRWH6JoKBhBAqx6xDMN3G
+    00null              rhr3wb58NyicoBBXGfPQtctXxk1X8ZhwcM
+    Isamaru             rGsfVSM9etepbYoa52AScPRd2eSdv86ZDf
+    ragmondo            rHm9QPX7v2xz9JMozrYnJynfgEhnQ6Aaeo
+    trippp              rL4px896Gf2r5PDru38jsJt3qTN9NmpgEd
+    TheRenix            rMPJ77FoY86cLLzhQ3ETnvNdAvy6A4UMqR
+    simonk83            r3U8PomU1pw4T48cmXVahUNuUerNVcbwto
+    rme                 rJeuPjq9XBZkuxk51hmXSsFmANy7JbBCRC
+    Ecks                rJaBUL6npe6yvoJU7e5nuRgAaMoa3njnQ8
+    NABiT               rLorFPMtVzutmcZBDGpAeQLfVyCL19p1qK
+    JesterOfTortuga     rDGLPeQTbd7ntNRNdwAtgAjnUPf7YwDHGz
+    cambda              rfxAqtZA9Knb8mb1Gij4Y6rFfTfp6FWSTZ
+    ryanbrownstar       rvTZGvDaKza8Zuhm4E7vnLtTuMU2MgwX3
+    mmkiwi              rJpG5GJrpKBabbqGphfijjdZe2bkyPewL7
+    camolist            rBzu6o32DoHtHUvRYUKwcHMsgz1BTSTyek
+    TheInventor         r7a3uqQREUU6tEYnsCTFWh31DeVHWNp2G
+    rizzla              rLnhMYFwqUkc2D8ojJmhQkNuytaBsyzVG3
+    Moshi               r9fupyMm63XMvbAozvzjLyHdJHCtLEKveE
+    bachus              rKQLwGTe6NX16iSEuS88bi3FEqZnbwF7EB
+    helloworld          rwDo98FnbCp3qUN5CkwDcK4rFfbyW3Kzqq
+    Cyberdyne           ragN8YEhHjXbgeGrNGLw9wuxQeq1d8qHk
+    cardinalG           rQr973QcHXx1NCfXpQdLPpnGmMrkDjwRXB
+    dalek               r3HpcvyJUhpGzJGa7KBZcvo35EiDqLtU1V
+    Slackware1995       rLHacQyTzfRjHMp7yFzXu18cbt6KteSXBP
+    WalterRothbard      rwaaH5CCdWe8V7kBbXQonpFyKbRDePF9Vc
+    spndr7              rUusFTWNUDYqKnAg4tiZLTAyRdUMaVFVUG
+    kakobrekla          rHrkFodY9f3DxQnSsHiu6R1j4JvTYfFnRS
+    ny2cafuse           rBh3KyjpANw5GXbt9AmCiFB2MbYGxWSCWa
+    chris200x9          r9MmCAquMciDwGRqKUXvayK2LAayPSvYuz
+    Prospero            rB8N1ohjVKtMiZVivSY3H6Y3ABcAMJce36
+    Atruk               rp3uz9jcb8LkMpMvwsfFTaCpkEgAGxNnKj
+    Isokivi             rUjVzMqFpFYLQ8PoKb46psWuKhkxgZFTnx
+    Anormalname         rp9DmXB6uxkooTeGpdtjaj8eT8V3ENaads
+    Luno                rDcW2mqMKGHZ4iFKkTSyHyBT4AtLNBwge
+    weex@bitcointalk    rEjC6w3m7ENkmD9SAyFyfKgRgeNz7HbkbW
+    gbl08ma             rsgg1U8UpYodp1GM3NDaYfMrZge97Gpvc9
+    tosku               rBs43YZMn5QsYY9jZYcG4C3egEebUfGWh3
+    Speculatius         rNHf9nnX4JgHferxjRxmapDev7mWQZ6XXd
+    OpenCoin            rJR7gjNe3DpJ7kpB4CHBxjDKfwVMpTKPpj
+    BitcoinG            r3CxMDQFX1Atq1vQN5sqVsjm3rawGSwd32
+    Akka@bitcointalk    r9RpJFpD6vkKhgHhrRjkgofSbNsE1oYFZ1
+    grondilu            rpuebQXsR7kAst5yidD6fmGmJHD4niXzbo
+    Mageant             rPDT5apJsfy8Jbz3M8jXzXskMsKAANhM9p
+    Severian            rDqSvk6fRhKq5tSW7GpWFFHG5pG2XE3mtR
+    lebing              rJFGHvCtpPrftTmeNAs8bYy5xUeTaxCD5t
+    gweedo              rKFX2Gvk4jLtgEGMC2qDmMi18Zw4bewrjK
+    molecular           rpH3zuMch2GrrYX724xGWwbMGwiQ5RbSAU
+
+  ]]
+
+  Addresses = Contacts.invert
+end

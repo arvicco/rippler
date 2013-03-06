@@ -1,22 +1,13 @@
-require "rippler/version"
-require 'faye/websocket'
 require 'eventmachine'
-require 'rippler/transaction'
+require 'faye/websocket'
 require "json"
 require "pp"
+require "rippler/version"
+require 'rippler/transaction'
+require 'rippler/contacts'
 
 module Rippler
-  ACCT = "rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh"
-
-  ACCOUNTS = {
-    "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B" =>  'bitstamp',
-    "rrpNnNLKrartuEqfJGpqyDwPj1AFPg9vn1" => 'bitstamp_hotwallet',
-    "rBcYpuDT1aXNo4jnqczWJTytKGdBGufsre" => 'weex_aud',
-    "rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi" => 'weex_btc',
-    "r47RkFi1Ew3LvCNKT6ufw3ZCyj5AJiLHi9" => 'weex_cad',
-    "r9vbV3EHvXWjSkeQ6CAcYVPGeq7TuiXY2X" => 'weex_usd',
-    "rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh" => 'arvicco'
-  }
+  ACCT = Rippler::Contacts["arvicco"]
 
   def self.account_info account=ACCT
     pp request( command: "account_info", ident: account )
@@ -25,10 +16,10 @@ module Rippler
   def self.account_tx account=ACCT
     reply = request( command: "account_tx",
                      account: account,
-                     ledger_min: 316000,
-                     ledger_max: 316794,
+                     ledger_min: 303000,
+                     ledger_max: 329794,
                      resume: 0,
-                     sort_asc: 1 )#(optional)
+                     sort_asc: 1 ) #(optional)
     txs = reply["result"]["transactions"]
     pp txs.map {|t| Transaction.new(t).to_s}
   end
@@ -51,7 +42,7 @@ module Rippler
       end
 
       ws.onerror = lambda do |event|
-        p [:message, event]
+        p [:error, event]
       end
 
       ws.onclose = lambda do |event|
