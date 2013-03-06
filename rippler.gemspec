@@ -16,4 +16,7 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+
+  gem.add_dependency 'faye-websocket', '~> 0.4'
+  # gem.add_dependency 'websocket-eventmachine-client', '~> 1.0'
 end

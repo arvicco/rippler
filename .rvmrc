@@ -1,1 +1,1 @@
-rvm --create use jruby-1.7.2@rippler
+rvm --create use ruby-1.9.3-p362@rippler
