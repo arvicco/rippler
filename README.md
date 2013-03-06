@@ -4,21 +4,19 @@ Command line client for Ripple payment platform. It uses Ripple websocket API to
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'rippler'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+You need to have Ruby 1.9 (http://www.ruby-lang.org/en/downloads/) installed. Once Ruby is in place, just install Rippler gem:
 
     $ gem install rippler
 
 ## Usage
 
-TODO: Write usage instructions here
+Rippler supports Ripple API commands (https://ripple.com/wiki/RPC_API). All parameters after command should be given in JSON format, such as:
+
+    $ rippler account_info ident:rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi
+
+    $ rippler account_tx account:rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi ledger:319841
+
+    $ rippler account_tx account:rpH3zuMch2GrrYX724xGWwbMGwiQ5RbSAU ledger_min:300000 ledger_max:319000
 
 ## Contributing
 
