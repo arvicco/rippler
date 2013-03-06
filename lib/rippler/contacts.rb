@@ -1,6 +1,8 @@
 module Rippler
   Contacts = Hash[ *%W[
     OpenCoin            rJR7gjNe3DpJ7kpB4CHBxjDKfwVMpTKPpj
+    address_one         rrrrrrrrrrrrrrrrrrrrBZbvji
+
     weex_btc            rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi
     bitstamp            rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B
     bitstamp_hotwallet  rrpNnNLKrartuEqfJGpqyDwPj1AFPg9vn1
@@ -38,6 +40,15 @@ module Rippler
     Severian            rDqSvk6fRhKq5tSW7GpWFFHG5pG2XE3mtR
     lebing              rJFGHvCtpPrftTmeNAs8bYy5xUeTaxCD5t
     gweedo              rKFX2Gvk4jLtgEGMC2qDmMi18Zw4bewrjK
+    OgNasty             r3hRKGL1JKWXJDujchZXrs6Pa16xsM6JjS
+    Mogly               r9uVRhJEKsJVaxsU3c3rimzLWKYRmDUcX2
+    Warry               rLgbpjNtVQ6ENjn5nGgnyi26gn9EBjuKhj
+    supert              rh7eAu9SrFsE2fVfc1PJTs1WYDHGAUde6V
+    Evan                rfpS692WVbsSXyv6R48K8A2LHCqdvYaS2w
+    BBQKorv             rrhAmxxwxEchP2iJdGh7nrwwAK4u3BzaLC
+    TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
+    Mjbmonetarymetals   rNTXjBWitdKUxr6o1zyi4FsjQ8UeP3JCKd
+    khal                rpUjkUUcbteWbXrPt4aXAMwzotSPzQJHQt
 
     arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
     paysafecardbitcoin  rN4kvobWCZVSzgLmo27B4kMjakAL31pMSr
