@@ -1,5 +1,6 @@
 module Rippler
   Contacts = Hash[ *%W[
+    OpenCoin            rJR7gjNe3DpJ7kpB4CHBxjDKfwVMpTKPpj
     weex_btc            rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi
     bitstamp            rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B
     bitstamp_hotwallet  rrpNnNLKrartuEqfJGpqyDwPj1AFPg9vn1
@@ -7,9 +8,38 @@ module Rippler
     weex_aud            rBcYpuDT1aXNo4jnqczWJTytKGdBGufsre
     weex_cad            r47RkFi1Ew3LvCNKT6ufw3ZCyj5AJiLHi9
     weex_usd            r9vbV3EHvXWjSkeQ6CAcYVPGeq7TuiXY2X
+
     molecular           rpH3zuMch2GrrYX724xGWwbMGwiQ5RbSAU
+    Ente                rNEtVs4kNeESF5HbWCDZMYcWwKZ5iKwUEr
+    herzmeister         rUdPvX9YN1NwyniwiJeSW6y3YKZL84gsB6
+    ribuck              ra3a5cfr83b5FTh1YDURqWQh8HTbHEwdyD
+    Spekulatius         rNHf9nnX4JgHferxjRxmapDev7mWQZ6XXd
+    Bitobsessed         rKfd86S25PUdVquk41xedH5jNX4bZ8DiA7
+    Akka                r9RpJFpD6vkKhgHhrRjkgofSbNsE1oYFZ1
+    bbit                rB7qiwEDrcMShUN3Jd8LwXr4RJ7RWBaQu8
+    ryanAC              rJA6mGHsw5yCynLFRe3rjGqaCMk2YpmuMy
+    phelix              rM3puGNYNQTWuqsQpkzxSpmWFqGGuY29Vb
+    kokojie             rNexqWdz7q16e6PPBDsD2XxxzFS64SAEYS
+    PeterLambert        rGsLivkDjTZHFQ8oV2h81uTcbTpgjEaEY7
+    jorgen              rQay7bQ3XoZcT6E3c8uDopZdnWaMBxWea2
+    Belkaar             rJVshcxcxSAXkgzg1PiUQWr5TodTNAETva
+    grondilu            rpuebQXsR7kAst5yidD6fmGmJHD4niXzbo
+    TimoY               rG8VFQPaJB2gNjx29Et1wKUJettQP1eLmk
+    Melbustus           rKAw7uHrdUUEqtfFhBBHe6unyh57PLpCc4
+    Aahzman             r9TWUUN8duW1rDqJ2yz2wjksc8A9BpxPUh
+    AlexNeto            rp3Papsq3aXf3gswfgfaqgegjLAEVaw8V1
+    thoughtcourier      rn7iD6DpnCwH8kjJDCsENibMXkgmJkRCRz
+    znort987            rnozMbmRYfqvn15iBFNeeRJs95gagR2B46
+    RaTTuS              rw65MQQDpWQYGxFEtcQk3r6dpeZ2gx5zff
+    romerun             rU3cgYfpu9jedq8GnW43ArEntsWTD6Sg4n
+    PRab                rEdaspCuZQWrxrGiGMQW3iPXjmEnfUxkqN
+    duckbillp           rsa8BE2DfzLC52XQMUv3gECoZXQL7FNGig
+    Mageant             rPDT5apJsfy8Jbz3M8jXzXskMsKAANhM9p
+    Severian            rDqSvk6fRhKq5tSW7GpWFFHG5pG2XE3mtR
+    lebing              rJFGHvCtpPrftTmeNAs8bYy5xUeTaxCD5t
+    gweedo              rKFX2Gvk4jLtgEGMC2qDmMi18Zw4bewrjK
+
     arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
-    cambda-1            rBBSghHNdpbBuT5kiGruX5TjofWLF2fi74
     paysafecardbitcoin  rN4kvobWCZVSzgLmo27B4kMjakAL31pMSr
     Lethn               r4DpNXFTohg1hgBKxrYv8YBtahKNAALjeH
     nikkus              rUhcZuPQBrykExj1VSfLnaeLdu2hJmVe9e
@@ -37,10 +67,11 @@ module Rippler
     Ecks                rJaBUL6npe6yvoJU7e5nuRgAaMoa3njnQ8
     NABiT               rLorFPMtVzutmcZBDGpAeQLfVyCL19p1qK
     JesterOfTortuga     rDGLPeQTbd7ntNRNdwAtgAjnUPf7YwDHGz
-    cambda              rfxAqtZA9Knb8mb1Gij4Y6rFfTfp6FWSTZ
     ryanbrownstar       rvTZGvDaKza8Zuhm4E7vnLtTuMU2MgwX3
     mmkiwi              rJpG5GJrpKBabbqGphfijjdZe2bkyPewL7
     camolist            rBzu6o32DoHtHUvRYUKwcHMsgz1BTSTyek
+    cambda              rfxAqtZA9Knb8mb1Gij4Y6rFfTfp6FWSTZ
+    cambda-1            rBBSghHNdpbBuT5kiGruX5TjofWLF2fi74
     TheInventor         r7a3uqQREUU6tEYnsCTFWh31DeVHWNp2G
     rizzla              rLnhMYFwqUkc2D8ojJmhQkNuytaBsyzVG3
     Moshi               r9fupyMm63XMvbAozvzjLyHdJHCtLEKveE
@@ -63,16 +94,7 @@ module Rippler
     weex@bitcointalk    rEjC6w3m7ENkmD9SAyFyfKgRgeNz7HbkbW
     gbl08ma             rsgg1U8UpYodp1GM3NDaYfMrZge97Gpvc9
     tosku               rBs43YZMn5QsYY9jZYcG4C3egEebUfGWh3
-    Speculatius         rNHf9nnX4JgHferxjRxmapDev7mWQZ6XXd
-    OpenCoin            rJR7gjNe3DpJ7kpB4CHBxjDKfwVMpTKPpj
     BitcoinG            r3CxMDQFX1Atq1vQN5sqVsjm3rawGSwd32
-    Akka@bitcointalk    r9RpJFpD6vkKhgHhrRjkgofSbNsE1oYFZ1
-    grondilu            rpuebQXsR7kAst5yidD6fmGmJHD4niXzbo
-    Mageant             rPDT5apJsfy8Jbz3M8jXzXskMsKAANhM9p
-    Severian            rDqSvk6fRhKq5tSW7GpWFFHG5pG2XE3mtR
-    lebing              rJFGHvCtpPrftTmeNAs8bYy5xUeTaxCD5t
-    gweedo              rKFX2Gvk4jLtgEGMC2qDmMi18Zw4bewrjK
-    molecular           rpH3zuMch2GrrYX724xGWwbMGwiQ5RbSAU
 
   ]]
 
