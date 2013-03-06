@@ -8,4 +8,6 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 require 'rippler'
 
-Rippler.run
+command = ARGV.empty? ? ['account_info'] : ARGV
+
+Rippler.send *command
