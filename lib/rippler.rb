@@ -60,15 +60,15 @@ module Rippler
     request( {command: "account_info", ident: MY_ACCT}.merge(params) )
   end
 
-  def self.my_tx params
+  def self.history params
     reply = request( {command: "account_tx",
                       account: MY_ACCT,
-                      ledger_min: 303000,
+                      ledger_min: 310000,
                       ledger_max: 329794,
                       resume: 0,
                       sort_asc: 1
                       }.merge(params) ) #(optional)
     txs = reply["result"]["transactions"]
-    txs.map {|t| Transaction.new(t).to_s}
+    txs.reverse.map {|t| Transaction.new(t).to_s}.push("Size: #{txs.size}")
   end
 end

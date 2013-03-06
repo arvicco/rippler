@@ -23,13 +23,13 @@ module Rippler
       case tx["TransactionType"]
       when "Payment"
         "PAY #{amount(tx['Amount'])} #{name(tx['Account'])} > #{name(tx['Destination'])}"
-      # when "OfferCancel"
-      #   "CAN #{name(tx['Account'])} ##{tx['Sequence']}"
-      # when "OfferCreate"
-      #   "OFR #{name(tx['Account'])} ##{tx['Sequence']} offers " +
-      #     "#{amount(tx['TakerGets'])} for #{amount(tx['TakerPays'])}"
-      # when "TrustSet"
-      #   "TRS #{amount(tx['LimitAmount'])} #{name(tx['Account'])}"
+      when "OfferCancel"
+        "CAN #{name(tx['Account'])} ##{tx['Sequence']}"
+      when "OfferCreate"
+        "OFR #{name(tx['Account'])} ##{tx['Sequence']} offers " +
+          "#{amount(tx['TakerGets'])} for #{amount(tx['TakerPays'])}"
+      when "TrustSet"
+        "TRS #{amount(tx['LimitAmount'])} #{name(tx['Account'])}"
       else
         tx
       end
