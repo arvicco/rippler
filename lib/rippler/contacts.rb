@@ -49,6 +49,7 @@ module Rippler
     TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
     Mjbmonetarymetals   rNTXjBWitdKUxr6o1zyi4FsjQ8UeP3JCKd
     khal                rpUjkUUcbteWbXrPt4aXAMwzotSPzQJHQt
+    Trading             rNPHozULzm5nKavgXxbq8tcwAcxyhZpTBw
 
     arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
     paysafecardbitcoin  rN4kvobWCZVSzgLmo27B4kMjakAL31pMSr
@@ -62,6 +63,7 @@ module Rippler
     Wolf0               rwcpov2ZZmPpo6sjeg4n2oZx94uAYBQ21o
     thepickingpair      rht576qwyKXZ26JEGHYpC3N3atjNS8oM5j
     Luceo               rGZL3cCV6Er5Tiag9tStGhseF4NDBxbxQr
+    Luceo-1             rJpuugf8o4NfvorsTGwGyyy11Hi3j9514H
     21after2            rwuoJnBP4kyfR6Bry8ruLNyxubuk37w6gi
     t.o.m.              r4b5wQJL9qfqGZA6WQksE9spuYi4fmgDde
     octopus             r33dwR8VbfDvHptF2AYzp9JHjR7iVetqM
@@ -106,6 +108,7 @@ module Rippler
     gbl08ma             rsgg1U8UpYodp1GM3NDaYfMrZge97Gpvc9
     tosku               rBs43YZMn5QsYY9jZYcG4C3egEebUfGWh3
     BitcoinG            r3CxMDQFX1Atq1vQN5sqVsjm3rawGSwd32
+    Gzarcov             rEg8hTqY7jhSkeFirfE5Fm7BF72WaaCnrB
 
   ]]
 
