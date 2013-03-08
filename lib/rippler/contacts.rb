@@ -4,22 +4,32 @@ module Rippler
     OpenCoin-1          r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV
     ADDRESS_ONE         rrrrrrrrrrrrrrrrrrrrBZbvji
 
+    X.FortKnox.1        rhWnKQ79moM7wkk2b9RpufDzhbHw7YLc6d
+    X.FortKnox.2        r9PbKbYisKN1DSwaZ7jp6ZsKmfk1yCFAAi
+    X.FortKnox.3        rJipRKjL3CNAvWWMNrbXW9sCvk66PBdyMv
+    X.FortKnox.4        rDyLzAzyniahxpPLkNsLDSPZki6HZk6wV5
+    X.FortKnox.5        rhXSetHpayrrnjVAzVgtP4EVmpqMpMFUBt
+    X.FortKnox.6        rn4o6i8BrwhwmyjLntKsW4DZnk76dZXocS
+    X.FortKnox.7        rNAbBQAd8zgfdRoUFvjeu582Nu7uQjsuhz
+    X.FortKnox.8        rNGWsgk1MGdW12SWQ67hRhnvGfZ1M3cMxB
+    X.FortKnox.9        rp7gaQch2fiNQHDPrnPk9pG65e9cnv7g6X
+    X.FortKnox.a        rstKSeB2Qx7zrwSkyc7X9Xm5nYTJqtL3iM
+    X.FortKnox.b        rJYMACXJd1eejwzZA53VncYmiK2kZSBxyD
+    X.Veirou            rhq5LEZSWHWY6H3raiC2KGe8TVeirou4BS
+    X.Wow               rHD7Bs8Zk1oQeUhLjPrsFStFcRE2NWoWpe
+    X.Reya              rEyAJhMMi5WNzgdkY67vN7ivfiQnh3itXY
+    X.Founder.1         rfbKLd1VLB3o6fpkhCJexckArjoMmBm2wG
+    X.77millions        rB5TihdPbKgMrkFqrqUC3yLdE8hhv4BdeY
+    X.10millions        rHrSTVSjMsZKeZMenkpeLgHGvY5svPkRvR
+    X.001               rKdtD8YQXCJAnXoXQfmn645FybiaFWVghs
+    X.002               ramJoEsBUHc299vFuMvn8NgLrF3Qrt3XV4
+
     bitstamp            rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B
     bitstamp_hotwallet  rrpNnNLKrartuEqfJGpqyDwPj1AFPg9vn1
     weex_btc            rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi
     weex_aud            rBcYpuDT1aXNo4jnqczWJTytKGdBGufsre
     weex_cad            r47RkFi1Ew3LvCNKT6ufw3ZCyj5AJiLHi9
     weex_usd            r9vbV3EHvXWjSkeQ6CAcYVPGeq7TuiXY2X
-
-    X.Veirou            rhq5LEZSWHWY6H3raiC2KGe8TVeirou4BS
-    X.Wow               rHD7Bs8Zk1oQeUhLjPrsFStFcRE2NWoWpe
-    X.Reya              rEyAJhMMi5WNzgdkY67vN7ivfiQnh3itXY
-    X.Founder.1         rfbKLd1VLB3o6fpkhCJexckArjoMmBm2wG
-    X.9billions         rstKSeB2Qx7zrwSkyc7X9Xm5nYTJqtL3iM
-    X.77millions        rB5TihdPbKgMrkFqrqUC3yLdE8hhv4BdeY
-    X.10millions        rHrSTVSjMsZKeZMenkpeLgHGvY5svPkRvR
-    X.001               rKdtD8YQXCJAnXoXQfmn645FybiaFWVghs
-    X.002               ramJoEsBUHc299vFuMvn8NgLrF3Qrt3XV4
 
     TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
     BankOfZed           ra88Lr8fyo9cUTuyjVFMTrvTSBU93erjyh
@@ -78,7 +88,6 @@ module Rippler
     runlinux            rsAMwJ4BjuEwb5dkd84XW9WM5KvauxcGAU
     nomnomnom           rp3qwd4zb8Ywq8rFrxLgijvyYKMa68FbxW
     nealmcb             r3NQyByq6KfvnD1PXu3jwGzdsVGn1HEJNq
-    TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
     plummonkey          r3PDtZSa5LiYp1Ysn1vMuMzB59RzV3W9QH
     magnebit            rQrUJLNcjnaZJjqMjaiPHxGa7eipzyf7b
     mpfrank             rnfLDQaxN7isxzWZuc6BM8jeiCb2WSGpdG
@@ -127,7 +136,11 @@ module Rippler
     Krax                razxPYEPwt8JkH5RUkoTakMLEA9PJMuokT
     PEDTrader           r4nj4U8kwYZgXCUSQehPBW2QqbPPvcyGEV
     thebankofbitcoins   rKdxsLnSodtD4BJwxPM1WssTGLXBNK7oxb
-
+    abrkn               rG4muW7MgLqFV1VgzJ7sJ6ADr3xAAPujVi
+    franky1             rJc889SGH2CAc69hV8ybHo79RRTuYBTPP7
+    rieneuf             rLnPp15en31XUZXYhXcjJS9t2yM8po5icr
+    001sonkit           r2hqqo78t9yvSgJJH2g2uaBxgQDUK8Xnp
+    respcelasa          r9Eupo97W5HayeDG5qryDehqauTDtxQAzW
 
     arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
     paysafecardbitcoin  rN4kvobWCZVSzgLmo27B4kMjakAL31pMSr
@@ -194,13 +207,18 @@ module Rippler
     Ivica               ra6FCgRD4Ye4PNcTRhmiXaSzpJKo1PQEzh
     DrG                 rQrnuAtfePuz2fsSDTakuDZn594fi9x7dP
     DrG-1               rJEZjBv27ZHCPAoDtTBJb9r82VnUdkRd77
+    DrG-2               rQNFxWVBxnjeF5gaFKwoj5nr3WansCtR19
     UnitClick           rLKojeESeKi9mdBuPLkiQhCxs4wh8iKy2W
     saddambitcoin       rMSEYpzcRtkiA5kkxYEWZtvLr8u3jnn385
     helloworld111       rwGAnUvzT5yrDz6dXxm6MWVhpV9abm39W3
     dykast              rQfwn3GVHVEfTpjqU2Y3BoMGAGHrw43XnT
     BurbolGii           rDYwnqGbUazEuMfebQwLprCQQXWbYgXTMa
     BC12345             rNy61KXKUYPMFf5fMV6ojo3u98dc5WhiVu
-    Eegnylot  rPKwrbDS6GC61QF1NuyTCohK926ns2vEG3
+    Eegnylot            rPKwrbDS6GC61QF1NuyTCohK926ns2vEG3
+    CurbsideProphet     rBgpempF56xEyJA9WV55NKZ9VZPJfwMQuZ
+    whitehawk501-1      r3bbiYhxHxseufw9UY5bqN1yCEdHVNKgM3
+    whitehawk501        r3qXCX9hdoFmTdPo7JvjQsbFUfE7UHUBhb
+    reefless            r3sAGjHpBW1VN7zerJLxpHj86p9eyrBTqs
   ]]
 
   Addresses = Contacts.invert
