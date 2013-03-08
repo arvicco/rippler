@@ -1,7 +1,7 @@
 module Rippler
   Contacts = Hash[ *%W[
     OpenCoin            rJR7gjNe3DpJ7kpB4CHBxjDKfwVMpTKPpj
-    address_one         rrrrrrrrrrrrrrrrrrrrBZbvji
+    ADDRESS_ONE         rrrrrrrrrrrrrrrrrrrrBZbvji
 
     weex_btc            rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi
     bitstamp            rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B
@@ -10,6 +10,13 @@ module Rippler
     weex_aud            rBcYpuDT1aXNo4jnqczWJTytKGdBGufsre
     weex_cad            r47RkFi1Ew3LvCNKT6ufw3ZCyj5AJiLHi9
     weex_usd            r9vbV3EHvXWjSkeQ6CAcYVPGeq7TuiXY2X
+
+    TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
+    BankOfZed           ra88Lr8fyo9cUTuyjVFMTrvTSBU93erjyh
+    AlanFromZed         rhR5j5LXsujSuwG2bcn1P39utdTA79ceaW
+    BobFromZed          r4ixnhDRE5VktpgtFkw5L8v1bNGsFusQJS
+    ChrisFromZed        rPA9PquwamoriknybdishCdWp6N1m2iEF8
+    SecondBankOfZed     rnqQ7YEStMBBqn6qBP4AYsyGhy1RKfUeRR
 
     molecular           rpH3zuMch2GrrYX724xGWwbMGwiQ5RbSAU
     Ente                rNEtVs4kNeESF5HbWCDZMYcWwKZ5iKwUEr
@@ -46,10 +53,52 @@ module Rippler
     supert              rh7eAu9SrFsE2fVfc1PJTs1WYDHGAUde6V
     Evan                rfpS692WVbsSXyv6R48K8A2LHCqdvYaS2w
     BBQKorv             rrhAmxxwxEchP2iJdGh7nrwwAK4u3BzaLC
-    TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
     Mjbmonetarymetals   rNTXjBWitdKUxr6o1zyi4FsjQ8UeP3JCKd
     khal                rpUjkUUcbteWbXrPt4aXAMwzotSPzQJHQt
     Trading             rNPHozULzm5nKavgXxbq8tcwAcxyhZpTBw
+    Schleicher          rGGxDC8VZ7zHmVKt6XK6sc7fUziNtvohWC
+    ripper234           rhQ7mQ1JJKygoxh7SoCaKNZB4GufdCRiH3
+    alexkravets         rKQLJpoBagwGiE7LVcY8YfDfE6EUREJjeq
+    comboy              rLHMoLsuLhg1Q741bHNjv7jhMqr6karoG7
+    djbaniel            rNnLFDCRrAtuESodmwamAasMBZqCmkqQH9
+    wyodude             rwJBiKfYKRFX59GykztmGdedUvmV64LpaK
+    misterbigg          rwLYfeQHfucz8wD6tFPY9Ms6ovmMBCCpMd
+    endlesscustoms      rN6DeCG5VvmfqjBywwoE24oXQsHzRDUfzh
+    avegetable          r9MZGmnGc1qo64ZQbxijVFCdcNt741nkYE
+    runlinux            rsAMwJ4BjuEwb5dkd84XW9WM5KvauxcGAU
+    nomnomnom           rp3qwd4zb8Ywq8rFrxLgijvyYKMa68FbxW
+    nealmcb             r3NQyByq6KfvnD1PXu3jwGzdsVGn1HEJNq
+    TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
+    plummonkey          r3PDtZSa5LiYp1Ysn1vMuMzB59RzV3W9QH
+    magnebit            rQrUJLNcjnaZJjqMjaiPHxGa7eipzyf7b
+    mpfrank             rnfLDQaxN7isxzWZuc6BM8jeiCb2WSGpdG
+    Bitcoining          raW4tvsndX8fkunTqpHWsT8L5BErB5KEJd
+    Pteppic             rwBYyfufTzk77zUSKEu4MvixfarC35av1J
+    Lohoris             rDBfeSsYGwDiXWdTARYHsxUtvzAXgARFMu
+    MatthewNWright      rwTbS9jC9a1Yu57j7ZUwEY5oQTo86o6VXR
+    wormbog             rLveNTH6EA3tY4BzpdvgkukJ3oTxWk2UHM
+    GoWest              rszHYGgWBTCwCUQCUjCPwmx6zLinbqXZvT
+    VitalikButerin      rJ2gXg1xcYW6756fBj393Dd9ZekJP45odZ
+    ElectricMucus       rpJwZ8dcJLVydewhhfQEgMCQxFyMorH9rG
+    RRTaylor-Almanza    rE4StrJNLHahqBjpVdz5pj2Zgqtvk1fwuu
+    hazek               rsQP8f9fLtd58hwjEArJz2evtrKULnCNif
+    FlipPro             rNSnpURu2o7mD9JPjaLsdUw2HEMx5xHzd
+    JoelKatz            rHzWtXTBrArrGoLDixQAgcSD2dBisM19fF
+    evoorhees           rpfxDFsjDNtzSBCALKuWoWMkpRp4vxvgrG
+    SunnyKing           rKMSa2tRir1kcKW6qrfRBc2fRZLCzVsxxX
+    dacoinminster       rKj9ngzutnjmuiSJTTkUm3NBBt83v2uc4r
+    jimbobway           rEMqTpu21XNk62QjTgVXKDig5HUpNnHvij
+    nanotube            rBJwwXADHqbwsp6yhrqoyt2nmFx9FB83Th
+    snapsunny           rNuFYAu1aUYbATH3qCs27BjPc5dDHVgY1z
+    tbcoin              rsvAk3NoSSZwCTv9epzrKtFkAkHLVwEBmw
+    Bimmerhead          rJzAwqVF3fuKvxRegZMfrFSQQrXJA9Dpms
+    MonsterTent         r3vaUaLbUgJdg61wuSiX4byD9ofkbPnKVa
+    rta                 rBxi9xHEmvSJHAxrJ21sQNprs9xuENgs1Z
+
+    X.Veirou            rhq5LEZSWHWY6H3raiC2KGe8TVeirou4BS
+    X.Reya              rEyAJhMMi5WNzgdkY67vN7ivfiQnh3itXY
+    X.001               rKdtD8YQXCJAnXoXQfmn645FybiaFWVghs
+    X.002               ramJoEsBUHc299vFuMvn8NgLrF3Qrt3XV4
 
     arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
     paysafecardbitcoin  rN4kvobWCZVSzgLmo27B4kMjakAL31pMSr
@@ -109,7 +158,19 @@ module Rippler
     tosku               rBs43YZMn5QsYY9jZYcG4C3egEebUfGWh3
     BitcoinG            r3CxMDQFX1Atq1vQN5sqVsjm3rawGSwd32
     Gzarcov             rEg8hTqY7jhSkeFirfE5Fm7BF72WaaCnrB
-
+    milly6              rQaxmmRMasgt1edq8pfJKCfbkEiSp5FqXJ
+    crazyearner         rBcrMMTUKAQJd5tMEsy1zyTGRiy79gY9K3
+    elelegzet           rBKnNboJeGxTwQM1agrXp28WcVWKtPPQah
+    Myrddindc           rp2ewp8uH4zi35T2oWkfpETT3rQ4qBBZzt
+    Ivica               ra6FCgRD4Ye4PNcTRhmiXaSzpJKo1PQEzh
+    DrG                 rQrnuAtfePuz2fsSDTakuDZn594fi9x7dP
+    DrG-1               rJEZjBv27ZHCPAoDtTBJb9r82VnUdkRd77
+    UnitClick           rLKojeESeKi9mdBuPLkiQhCxs4wh8iKy2W
+    saddambitcoin       rMSEYpzcRtkiA5kkxYEWZtvLr8u3jnn385
+    helloworld111       rwGAnUvzT5yrDz6dXxm6MWVhpV9abm39W3
+    dykast              rQfwn3GVHVEfTpjqU2Y3BoMGAGHrw43XnT
+    BurbolGii           rDYwnqGbUazEuMfebQwLprCQQXWbYgXTMa
+    BC12345             rNy61KXKUYPMFf5fMV6ojo3u98dc5WhiVu
   ]]
 
   Addresses = Contacts.invert
