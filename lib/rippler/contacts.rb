@@ -13,6 +13,7 @@ module Rippler
 
     X.Veirou            rhq5LEZSWHWY6H3raiC2KGe8TVeirou4BS
     X.Reya              rEyAJhMMi5WNzgdkY67vN7ivfiQnh3itXY
+    X.Founder.1         rfbKLd1VLB3o6fpkhCJexckArjoMmBm2wG
     X.9billions         rstKSeB2Qx7zrwSkyc7X9Xm5nYTJqtL3iM
     X.77millions        rB5TihdPbKgMrkFqrqUC3yLdE8hhv4BdeY
     X.10millions        rHrSTVSjMsZKeZMenkpeLgHGvY5svPkRvR
@@ -105,6 +106,22 @@ module Rippler
     fimp                rGnSAso57ca5hBtSYuXzT5rjCEFQ1RWAec
     intel-core-i7       rsmbvYkXWQ9LH3JHoHPg9rmYhQGi5M7ue4
     btc24               r96WyAeNMykJKpdMi54V5WCqQEqfqhs6oA
+    jl2012              rnKhmoH1BFrh7CfDnJ21XW6arPySDXUPFZ
+    Prattler            rnmB7GYEB9Xz2qBmiU8L6qdpCzd9FdvvJQ
+    commonancestor      rGguLh5qc15WLntiB7zPfE2XCBdB7HZLdi
+    sneef               rGQCcCAG2fFmPY7X9zDZEhCnMp5JgAeziS
+    zulzedd             rJYHWjtcZaHfDTL7P8Dh5zkk1JdZsxiYef
+    Snowfire            rpVbjBotUFCoi9xPu3BqYXZhTLpgZbQpoZ
+    Otoh                rKWYoFVMsKjZZhCZMFSagYmasqGZFYkpYu
+    Deafboy             rUAScykwHVqU2d4rb4twHbpDa7C81p4MSA
+    speeder             rNzJ6ikJKXAxAaTPMZCcXr2sFkmg9a2GM9
+    nelisky             rLDDq8ZGhCaVBP8MyYTifhCJzgWPQBjwpt
+    mrmx                rKishCqMiQG6zhFHPjrFhXztLDjZteNmGP
+    drewdtom            rsZvcvACPWoTN2Eazzb5radzQX18s3DuK8
+    MadSweeney          r4pqusLQxgFNQQNByJMcTvQcYG9v1GpBum
+    Digigami            rHCSeQNZZz7FWbxvLjB2RzF1CrBeUcDj7J
+    jking               rMpB2AsrDTdbynCB48hg8MwHLD4wtXJfRJ
+    justusranvier       rnZoz4R1o6GupernFX6bey34uj4g45scLZ
 
 
     arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
@@ -178,6 +195,7 @@ module Rippler
     dykast              rQfwn3GVHVEfTpjqU2Y3BoMGAGHrw43XnT
     BurbolGii           rDYwnqGbUazEuMfebQwLprCQQXWbYgXTMa
     BC12345             rNy61KXKUYPMFf5fMV6ojo3u98dc5WhiVu
+    Eegnylot  rPKwrbDS6GC61QF1NuyTCohK926ns2vEG3
   ]]
 
   Addresses = Contacts.invert
