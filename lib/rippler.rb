@@ -12,6 +12,8 @@ require 'rippler/ledger'
 require 'rippler/transaction'
 
 module Rippler
+  extend Rippler::Utils
+
   RIPPLE_URI = 'wss://s1.ripple.com:51233'
   MY_ACCT = Rippler::Contacts["arvicco"]
 
@@ -20,13 +22,17 @@ module Rippler
     command_line = args.empty? ? ['account_info'] : args.dup
 
     command = command_line.shift
-    params = Hash[*command_line.map {|p| p.split(':')}.flatten]
+    params = command_line.map {|p| p.split(':')}.flatten. #         get json pairs
+      map {|p| p =~ /\[.*\]/ ? p.gsub(/\[|\]/,'').split(',') : p} # get arrays
+    params = Hash[*params]
+    params['account'] = Account(params['account']).address if params['account']
+
     # p command, params
 
-    if Rippler.respond_to? command # pre-defined Rippler method
-      Rippler.send command, params
+    if respond_to? command # pre-defined Rippler method
+      send command, params
     else # Arbitrary API command
-      Rippler.request params.merge(command: command)
+      request params.merge('command' => command)
     end
   end
 
@@ -50,12 +56,15 @@ module Rippler
       ws.onmessage = lambda do |event|
         # p [:message]
         message = JSON.parse(event.data)
+        check_error message
         yield message
         ws.close unless streaming
       end
 
       ws.onerror = lambda do |event|
-        p [:error, event]
+        # p [:error, event]
+        pp event["error"]
+        raise "Websocket error"
       end
 
       ws.onclose = lambda do |event|
@@ -66,10 +75,24 @@ module Rippler
     }
   end
 
-  # These are user-defined methods that post-process Ripple replies
-  def self.subscribe params
-    em_request( true, {command: "subscribe", id: 0, streams: ['transactions', 'ledger' ]}.merge(params)) do |message|
+  def self.check_error message
+    if message["error"]
+      pp message
+      raise "Ripple error message"
+    end
+  end
 
+  # Subscribe needs a streaming wrapper
+  def self.subscribe params, &block
+    em_request( true, {'command' => "subscribe", 'id' => 0, 'streams' => ['ledger']}.
+                merge(params), &(block || lambda {|message| pp message}))
+  end
+
+  ### These are user-defined methods that post-process Ripple replies
+
+  # Subscibe to event streams, print events out nicely formatted
+  def self.monitor params
+    subscribe(params) do |message|
       case message['type']
       when "ledgerClosed"
         ledger = Ledger.new(message)
@@ -82,24 +105,16 @@ module Rippler
     end
   end
 
-  # These are user-defined methods that post-process Ripple replies
-  def self.my_info params
-    request( {command: "account_info", ident: MY_ACCT}.merge(params) )
-  end
-
+  # Retrieve account transactions history, print out nicely formatted transactions
   def self.history params
-    reply = request( {command: "account_tx",
-                      account: MY_ACCT,
-                      ledger_min: 280000, # 312000,
-                      ledger_max: 300000, #329794,
-                      resume: 0,
-                      sort_asc: 1
+    reply = request( {'command' => "account_tx",
+                      'account' => MY_ACCT,
+                      'ledger_min' => 280000, # 312000,
+                      'ledger_max' => 300000, #329794,
+                      'resume' => 0,
+                      'sort_asc' => 1
                       }.merge(params) ) #(optional)
-    if reply["error"]
-      reply
-    else
-      txs = reply["result"]["transactions"]
-      txs.reverse.map {|t| Transaction.new(t).to_s}.push("Size: #{txs.size}")
-    end
+    txs = reply["result"]["transactions"]
+    txs.reverse.map {|t| Transaction.new(t).to_s}.push("Total transactions: #{txs.size}")
   end
 end
