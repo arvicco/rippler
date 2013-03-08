@@ -25,6 +25,7 @@ module Rippler
     params = command_line.map {|p| p.split(':')}.flatten. #         get json pairs
       map {|p| p =~ /\[.*\]/ ? p.gsub(/\[|\]/,'').split(',') : p} # get arrays
     params = Hash[*params]
+
     params['account'] = Account(params['account']).address if params['account']
 
     # p command, params

@@ -12,6 +12,7 @@ module Rippler
     weex_usd            r9vbV3EHvXWjSkeQ6CAcYVPGeq7TuiXY2X
 
     X.Veirou            rhq5LEZSWHWY6H3raiC2KGe8TVeirou4BS
+    X.Wow               rHD7Bs8Zk1oQeUhLjPrsFStFcRE2NWoWpe
     X.Reya              rEyAJhMMi5WNzgdkY67vN7ivfiQnh3itXY
     X.Founder.1         rfbKLd1VLB3o6fpkhCJexckArjoMmBm2wG
     X.9billions         rstKSeB2Qx7zrwSkyc7X9Xm5nYTJqtL3iM
@@ -122,6 +123,10 @@ module Rippler
     Digigami            rHCSeQNZZz7FWbxvLjB2RzF1CrBeUcDj7J
     jking               rMpB2AsrDTdbynCB48hg8MwHLD4wtXJfRJ
     justusranvier       rnZoz4R1o6GupernFX6bey34uj4g45scLZ
+    sron                rNgfXZpCHQm4wT2CBoGpJeTnuEm1zKqD4x
+    Krax                razxPYEPwt8JkH5RUkoTakMLEA9PJMuokT
+    PEDTrader           r4nj4U8kwYZgXCUSQehPBW2QqbPPvcyGEV
+    thebankofbitcoins   rKdxsLnSodtD4BJwxPM1WssTGLXBNK7oxb
 
 
     arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh

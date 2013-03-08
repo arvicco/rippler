@@ -14,7 +14,7 @@ Alternatively, you can install from source at Github:
     $ cd rippler
     $ bundle install
 
-## Usage
+## Usage: Ripple API
 
 Rippler supports Ripple API commands (https://ripple.com/wiki/RPC_API). All parameters after command should be given in commandline JSON format, such as:
 
@@ -24,9 +24,13 @@ Rippler supports Ripple API commands (https://ripple.com/wiki/RPC_API). All para
 
     $ rippler account_tx account:evoorhees ledger_min:0 ledger_max:400000
 
-Ripple server replies are returned as JSON and printed to stdout. If you want to do some post-processing of the results, get source from Github and modify bin/rippler script.
+    $ rippler subscribe streams:[ledger]
 
-Rippler also provides additional commands print out human-readable output:
+Ripple server replies are returned as JSON and printed to stdout. If you want to do some post-processing of the results, get the source from Github and modify bin/rippler script.
+
+## Usage: additional commands
+
+Rippler also provides additional commands that print out human-readable output:
 
     $ rippler history account:molecular
 
