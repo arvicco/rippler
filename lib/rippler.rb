@@ -15,7 +15,7 @@ module Rippler
   extend Rippler::Utils
 
   RIPPLE_URI = 'wss://s1.ripple.com:51233'
-  MY_ACCT = Rippler::Contacts["arvicco"]
+  DEFAULT_ACCT = Rippler::Contacts["molecular"]
 
   # Turn command line arguments into command json
   def self.process args
@@ -110,7 +110,7 @@ module Rippler
   # Retrieve account transactions history, print out nicely formatted transactions
   def self.history params
     reply = request( {'command' => "account_tx",
-                      'account' => MY_ACCT,
+                      'account' => DEFAULT_ACCT,
                       'ledger_min' => 0, # 280000, # 312000,
                       'ledger_max' => 500000, #329794,
                       'resume' => 0,
