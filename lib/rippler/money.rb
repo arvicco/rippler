@@ -7,7 +7,7 @@ module Rippler
     # Money comes in in 3 formats:
     # Hash:  {'value' => xx, 'currency' => 'XXX', 'issuer' => 'ZZZZZZZ'}
     # String: 'value/currency(/issuer)'
-    # Int in a String: XRP amount in drops (x1000000)
+    # Int in a String: XRP amount in drops (x1,000,000)
     def initialize data
       case data
       when Hash

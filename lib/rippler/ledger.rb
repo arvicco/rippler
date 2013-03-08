@@ -5,7 +5,7 @@ module Rippler
 
     def to_s
       "#{Time(self.ledger_time).strftime("%Y-%m-%d %H:%M:%S")} " +
-        "Active ledger ##{self.ledger_index}, txn: #{self.txn_count}"
+        "Ledger ##{self.ledger_index}, txn: #{self.txn_count}"
     end
   end
 end
