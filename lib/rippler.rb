@@ -1,9 +1,15 @@
 require 'eventmachine'
 require 'faye/websocket'
 require "json"
+require 'ostruct'
+
 require "rippler/version"
-require 'rippler/transaction'
 require 'rippler/contacts'
+require 'rippler/utils'
+require 'rippler/money'
+require 'rippler/account'
+require 'rippler/ledger'
+require 'rippler/transaction'
 
 module Rippler
   RIPPLE_URI = 'wss://s1.ripple.com:51233'
@@ -24,10 +30,15 @@ module Rippler
     end
   end
 
-  # Make a single JSON request to Ripple over Websockets, return Ripple reply
-  def self.request params
+  # Send a single JSON request to Ripple over Websockets, return a single Ripple reply.
+  def self.request params, &block
     reply = ''
+    em_request false, params, &(block || lambda {|message| reply = message})
+    reply
+  end
 
+  # Send JSON request to Ripple, yields all json-parsed Ripple messages to a given block.
+  def self.em_request streaming=false, params, &block
     EM.run {
       ws = Faye::WebSocket::Client.new(RIPPLE_URI)
 
@@ -38,12 +49,13 @@ module Rippler
 
       ws.onmessage = lambda do |event|
         # p [:message]
-        reply = JSON.parse(event.data)
-        ws.close
+        message = JSON.parse(event.data)
+        yield message
+        ws.close unless streaming
       end
 
       ws.onerror = lambda do |event|
-        # p [:error, event]
+        p [:error, event]
       end
 
       ws.onclose = lambda do |event|
@@ -52,7 +64,22 @@ module Rippler
         EM.stop
       end
     }
-    reply
+  end
+
+  # These are user-defined methods that post-process Ripple replies
+  def self.subscribe params
+    em_request( true, {command: "subscribe", id: 0, streams: ['transactions', 'ledger' ]}.merge(params)) do |message|
+
+      case message['type']
+      when "ledgerClosed"
+        ledger = Ledger.new(message)
+        puts ledger if ledger.txn_count > 0
+      when "transaction"
+        pp Transaction.new(message)
+      else
+        pp message
+      end
+    end
   end
 
   # These are user-defined methods that post-process Ripple replies
@@ -63,12 +90,16 @@ module Rippler
   def self.history params
     reply = request( {command: "account_tx",
                       account: MY_ACCT,
-                      ledger_min: 310000,
-                      ledger_max: 329794,
+                      ledger_min: 280000, # 312000,
+                      ledger_max: 300000, #329794,
                       resume: 0,
                       sort_asc: 1
                       }.merge(params) ) #(optional)
-    txs = reply["result"]["transactions"]
-    txs.reverse.map {|t| Transaction.new(t).to_s}.push("Size: #{txs.size}")
+    if reply["error"]
+      reply
+    else
+      txs = reply["result"]["transactions"]
+      txs.reverse.map {|t| Transaction.new(t).to_s}.push("Size: #{txs.size}")
+    end
   end
 end
