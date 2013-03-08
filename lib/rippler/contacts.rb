@@ -1,15 +1,23 @@
 module Rippler
   Contacts = Hash[ *%W[
     OpenCoin            rJR7gjNe3DpJ7kpB4CHBxjDKfwVMpTKPpj
+    OpenCoin-1          r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV
     ADDRESS_ONE         rrrrrrrrrrrrrrrrrrrrBZbvji
 
-    weex_btc            rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi
     bitstamp            rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B
     bitstamp_hotwallet  rrpNnNLKrartuEqfJGpqyDwPj1AFPg9vn1
     weex_btc            rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi
     weex_aud            rBcYpuDT1aXNo4jnqczWJTytKGdBGufsre
     weex_cad            r47RkFi1Ew3LvCNKT6ufw3ZCyj5AJiLHi9
     weex_usd            r9vbV3EHvXWjSkeQ6CAcYVPGeq7TuiXY2X
+
+    X.Veirou            rhq5LEZSWHWY6H3raiC2KGe8TVeirou4BS
+    X.Reya              rEyAJhMMi5WNzgdkY67vN7ivfiQnh3itXY
+    X.9billions         rstKSeB2Qx7zrwSkyc7X9Xm5nYTJqtL3iM
+    X.77millions        rB5TihdPbKgMrkFqrqUC3yLdE8hhv4BdeY
+    X.10millions        rHrSTVSjMsZKeZMenkpeLgHGvY5svPkRvR
+    X.001               rKdtD8YQXCJAnXoXQfmn645FybiaFWVghs
+    X.002               ramJoEsBUHc299vFuMvn8NgLrF3Qrt3XV4
 
     TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
     BankOfZed           ra88Lr8fyo9cUTuyjVFMTrvTSBU93erjyh
@@ -94,11 +102,10 @@ module Rippler
     Bimmerhead          rJzAwqVF3fuKvxRegZMfrFSQQrXJA9Dpms
     MonsterTent         r3vaUaLbUgJdg61wuSiX4byD9ofkbPnKVa
     rta                 rBxi9xHEmvSJHAxrJ21sQNprs9xuENgs1Z
+    fimp                rGnSAso57ca5hBtSYuXzT5rjCEFQ1RWAec
+    intel-core-i7       rsmbvYkXWQ9LH3JHoHPg9rmYhQGi5M7ue4
+    btc24               r96WyAeNMykJKpdMi54V5WCqQEqfqhs6oA
 
-    X.Veirou            rhq5LEZSWHWY6H3raiC2KGe8TVeirou4BS
-    X.Reya              rEyAJhMMi5WNzgdkY67vN7ivfiQnh3itXY
-    X.001               rKdtD8YQXCJAnXoXQfmn645FybiaFWVghs
-    X.002               ramJoEsBUHc299vFuMvn8NgLrF3Qrt3XV4
 
     arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
     paysafecardbitcoin  rN4kvobWCZVSzgLmo27B4kMjakAL31pMSr
