@@ -94,9 +94,11 @@ module Rippler
   def self.monitor params
     subscribe(params) do |message|
       case message['type']
+      when "response"
+        puts "#{Ledger.new(message['result'])} starting..."
       when "ledgerClosed"
         ledger = Ledger.new(message)
-        puts ledger if ledger.txn_count > 0
+        puts "#{ledger} active" if ledger.txn_count > 0
       when "transaction"
         pp Transaction.new(message)
       else
@@ -109,8 +111,8 @@ module Rippler
   def self.history params
     reply = request( {'command' => "account_tx",
                       'account' => MY_ACCT,
-                      'ledger_min' => 280000, # 312000,
-                      'ledger_max' => 300000, #329794,
+                      'ledger_min' => 0, # 280000, # 312000,
+                      'ledger_max' => 500000, #329794,
                       'resume' => 0,
                       'sort_asc' => 1
                       }.merge(params) ) #(optional)
