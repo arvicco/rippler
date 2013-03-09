@@ -38,7 +38,7 @@ This one prints account history in a human-readable format.
 
     $ rippler monitor streams:[ledger,transactions]
 
-This one monitors Ripple transactions in real-time similar to #ripple-watch. Ctrl-C to stop it.
+This one monitors Ripple transactions in real-time similar to #ripple-watch, but more interesting since it shows known account names instead of opaque addresses. Ctrl-C to stop it.
 
 ## Contacts database
 
