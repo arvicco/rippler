@@ -2,7 +2,7 @@ module Rippler
   class Account
     include Rippler::Utils
 
-    attr_accessor :name, :address
+    attr_accessor :address
 
     # String: "evoorhees" or "rpfxDFsjDNtzSBCALKuWoWMkpRp4vxvgrG"
     def initialize name_or_address
@@ -10,8 +10,16 @@ module Rippler
       @name = Rippler::Addresses[@address]
     end
 
+    def name
+      if @name && @name =~ /X\.\d*/
+        "X.#{@address}"
+      else
+        @name
+      end
+    end
+
     def to_s
-      @name || @address
+      name || address
     end
   end
 end
