@@ -4,12 +4,13 @@ module Rippler
     OpenCoin            rJR7gjNe3DpJ7kpB4CHBxjDKfwVMpTKPpj
     OpenCoin.1          r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV
 
-    bitstamp            rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B
-    bitstamp_hotwallet  rrpNnNLKrartuEqfJGpqyDwPj1AFPg9vn1
     weex_btc            rpvfJ4mR6QQAeogpXEKnuyGBx8mYCSnYZi
     weex_aud            rBcYpuDT1aXNo4jnqczWJTytKGdBGufsre
     weex_cad            r47RkFi1Ew3LvCNKT6ufw3ZCyj5AJiLHi9
     weex_usd            r9vbV3EHvXWjSkeQ6CAcYVPGeq7TuiXY2X
+    bitstamp            rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B
+    bitstamp.hotwallet  rrpNnNLKrartuEqfJGpqyDwPj1AFPg9vn1
+    bitstamp.NejcKodric rphasxS8Q5p5TLTpScQCBhh5HfJfPbM2M8
 
     TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
     BankOfZed           ra88Lr8fyo9cUTuyjVFMTrvTSBU93erjyh
@@ -103,6 +104,14 @@ module Rippler
     Jaques              rLVMPwKBxungSYQgiN7HmTa9ndiXSbgzhV
     Geraintjdotcom      rNiS1vbeca2p7WxRwA1oS4WtnxXLB9MHsU
     icey                rDACCWyQyqfuvt9WxCWBZyqgBEMijLseZm
+    thatbluedude        rLnCJbgbivWYavZXCdaJ7asHPP31RyXPdk
+    montana             rUMub4tmRpNRfognEeTcwW5rEbXwrgZLwd
+    Cookie_Monster      raww2VncvFyPvPCY8xnmb1AoqRxUWb6VdN
+    CarlosL             rE9hpRfFFqWGxpGYA8bC6GkroRCr4mLLcq
+    greendave           rPGpKXPSSxwvkpNXM5BtRRFWYjLP1ibH9D
+    Darkneo             rfQdhMCnjWRP1fd1amNQwe49sMmXgR3uYq
+    veteranBtc          rUvpjNBcnt4DLKEVA2XyvJi1YGCfp2EPtk
+    templeofshadows     rJCCwPsVANVfEgQEB2bsEiaTF86cr9fdw4
 
     molecular           rpH3zuMch2GrrYX724xGWwbMGwiQ5RbSAU
     Ente                rNEtVs4kNeESF5HbWCDZMYcWwKZ5iKwUEr
@@ -145,6 +154,7 @@ module Rippler
     Schleicher          rGGxDC8VZ7zHmVKt6XK6sc7fUziNtvohWC
     ripper234           rhQ7mQ1JJKygoxh7SoCaKNZB4GufdCRiH3
     alexkravets         rKQLJpoBagwGiE7LVcY8YfDfE6EUREJjeq
+    alexkravets.1       rnLkaEfjiiyLKkKwUrjYxWNuysB2z7ja2Z
     comboy              rLHMoLsuLhg1Q741bHNjv7jhMqr6karoG7
     djbaniel            rNnLFDCRrAtuESodmwamAasMBZqCmkqQH9
     wyodude             rwJBiKfYKRFX59GykztmGdedUvmV64LpaK
@@ -375,6 +385,56 @@ module Rippler
     drawingthesun       rBpSXnvCUkG6cAtk1KxaRKvM7wPcrJot5s
     _bh                 rPtfQWdcdhuL9eNeNv5YfmekSX3K7vJHbG
     mazi                rhdAw3LiEfWWmSrbnZG3udsN7PoWKT56Qo
+    imanikin            rEQLRKCwfHX6CJ9BnqBZmzwCVxMs3yNjGq
+    AmitabhS            rUy6q3TxE4iuVWMpzycrQfD5uZok51g1cq
+    jed                 rHTxKLzRbniScyQFGMb3NodmxA848W8dKM
+    wiggi               rnfP45Y8G24MaD3Atr2Gt1rYMJFRKbLrpu
+    brunozisterer       rDrZuE8YjYnU7C1s4nm1u3VmNjEyxacVHU
+    walruscode          rwmg65FXDmAZpBVBuhW6XRJTUuc33jwQgN
+    DannyM              rnziParaNb8nsU4aruQdwYE3j5jUcqjzFm
+    magnebit            rQrUJLNcjnaZJjqMjaiPHxGa7eipzyf7b
+    coinft              rngJ9Co6MPZxJcyepRv2hMPV1HqaeGCdVU
+    w1R903.oushri       rUNgGdWJDyyK4MeKzZdUvDZCBM528tXNb1
+    coderrr             rfMPPvVmb3T3SMaVxsGYDHjbyac66aRN21
+    freeworm            rnC6kokbPHcBAxcrVUjUmJdTAXVkyBWU4v
+    redmallorca         r3eWvbX3UxtbqdQ6qFVeUnF7aMYBnea7zz
+    Face                rJXpVEfEbiBkxFCLB1SdQCU7HQcpmVjU1U
+    osmosis             r2oU84CFuT4MgmrDejBaoyHNvovpMSPiA
+    bpd                 rLCvFaWk9WkJCCyg9Byvwbe9gxn1pnMLWL
+    pof                 rhcZbS2CAVZ9jTE4WGujuztwJAgztGCLRH
+    theomar             rK3mQg14stixU8yZzeKkvPXsi4btfX11BY
+    Carandiru           rXJDPhk2tNumsqAnNkWQ79YpQeREaSriK
+    BitcoinForLiberty   rUhRc8wx912YH617j8egv7nLcwNX5G8ry1
+    phantastisch        rDmU6omZ7RWqcp1m5GNXY2BdRibFC5rGHF
+    bigbox              rEFko7T56fAkp2az6pXxkpfqqbCSAjcosW
+    katp                rG2bkX4MV5kMdNkKzzrgVEjeudAz2b3dgY
+    m0mchil             rDNa6N2YsP9SGNoJdbNj1McViMDyxkdqsB
+    cabin               rPUZ2yrr94nXbamcoaZ9U9ABMo8VMXxRwt
+    arrowdebreu         rE2f4i2j8ooUBUKM6jZmwmkjLigwsy5yvP
+    prophecynine        r9WcJzZE7SegMX2Eoczx6bjQ5kACGbA5BY
+    honolululu          r4mxrHNPjCqRufGUhD28SAJ4DHD363m8ZJ
+    btcash              rPHzZKcjGHss9MMmt6nQiARbKZBNpJesr4
+    kingmidas           r4xF86D31qByMFKwg2WTpQ9aD7E15Gxqmy
+    vhaasteren          rJ76yEA3MjG6foR7Np2gCxkSSe6cRy5fsH
+    OneMiner            rPXh6UrSBuLzzqKksZchqM4nC67EhfNnAW
+    phasor              rnFqZzWEi5mEaM7Sra1ZSbAJuYPFYi5Ung
+    nave                rPkWfq4WTRey3vuRtXPwEwN9PBF3qEPWDt
+    SuperTramp          rEaYSdRcqphHGGcpcnjyCefJKiDnevaZT4
+    4461462665          rnghnHTtDmdKBunkiYn3LH3jKg7bpQ4KmX
+    gwillen             r3hQEumtyv77Zp1Brw8fWuaVVSK7etMVEe
+    conroe64            rKQ2Db6JmHF6PBoy7u9uBpn7geQDA4pQrM
+    GlobalBTC           rwjL7pxE8MxgGRG2idm7pySBnowrQ7QL84
+    sputnik             rp9rFPvgYSqKVC3Aibz8r8chHoHW5hfV3S
+    db                  rDALX7uHNUxPmfySY4ENdMiQ9uim12uBpg
+    bitcoins5411        rEVbH32GDhDrPPF6bZUXLeBc8sgsUpCsJY
+    CyanSlowly          rBMJup7diEYhHgAXKZATGmVxzEEqYyWumZ
+    rube7x              rsbzdffvgZo3HJFnxJCdF52zTDoFNE8KMf
+    fancy_pants         rGrVrXUL11cfbB2A4XdVHeVtcEmHmTZQ23
+    OJsimpson           rhBKQBvsyDnSnLgU5D1DcbNKq34To6G2Mr
+    overrisk99          rfMwkq3bxP3ZQcDzFHQspFZWvKQEaMvQL6
+    Nevermore123        rDYdoGbQLCch5xSfbZTYnh1ctjTFBNA65h
+    miguel              rKSNsGJSQWy2pQcWc8tP5e4n8umCqyj5FY
+    ssbtoday            rPuCSJKRBX5iU7gKo6RyxSBUpmSJ3VFmhz
 
     X.FortKnox.1        rhWnKQ79moM7wkk2b9RpufDzhbHw7YLc6d
     X.FortKnox.2        r9PbKbYisKN1DSwaZ7jp6ZsKmfk1yCFAAi
@@ -410,7 +470,43 @@ module Rippler
     X.12                rwCYkXihZPm7dWuPCXoS3WXap7vbnZ8uzB
     X.13                rwHpLXGBMxUUqenPBaPugBfoVtgQy19nRE
     X.14                rpMwfz4c8FRxjqQhxLxbKzqkXdgkenFg8B
-  ]]
+    X.15                rEWDpTUVU9fZZtzrywAUE6D6UcFzu6hFdE
+    X.16                rUGNvasUuxLiPL5RXvfZXW8HjBtSHZgqgz
+    X.17                rPyuHFYDwYMGJ5xhMbzfYeikx7ARV3ExvF
+    X.18                r4MZrGMPEHfxGNQHR92BJo5hU9BiqMsTej
+    X.19                rnT9PFSfAnWyj2fd7D5TCoCyCYbK4n356A
+    X.20                rnW7DHtmZGJk4uhGTSU2BW3iPCPWb2xegg
+    X.21                rUrdFHbrEKWNQQ444zcTLrThjcnHCw2FPu
+    X.22                r49nVgaYSDuU7GEQh4mF1nyjsXSVRcUHsr
+    X.23                rf8kg7r5Fc8cCszGdD2jeUZt2FrgQd76BS
+    X.24                r9aRw8p1jHtR9XhDAE22TjtM7PdupNXhkx
+    X.25                rwdLV79WzXmFuzP2cBwTG6mtXcfSnCjtoF
+    X.26                r3ZXkbKVkCcwtSRbX5Rqz9VveyZDuXSs5G
+    X.27                rakv2tqjdLLuPu5g5j4F5JW21Q4LNLc6Vn
+    X.28                rnwRcxX4JpHnPjTJpaDH8YZzRPTphvsHbE
+    X.29                rKWFsTLRPrgC8KDC7fCqQRzDsvajgcM1Tp
+    X.30                r4mscDrVMQz2on2px31aV5e5ouHeRPn8oy
+    X.31                rHnxRmkRdL4NsAoxqN1xwKDuW49uosM3HL
+    X.32                r3o9bK8Re9XZpFwZC6jXGwKBuhoLss9Mhc
+    X.33                rKuuVUKA14roSPTuquQTo7nmWZN8EsfxpT
+    X.34                r9dshc2F8SqBdqXSmQHjsSoPN42PLB37ud
+    X.35                rnxnLRYWt6yiHC413MWwUeXJ4AZpQKShUg
+    X.36                rNJRm1VQZZuczrVHjgUSB9Y6kpMopLdADo
+    X.37                r3iLZXAAmuRQnt4hYQUcoXiSkrSAmHjcKW
+    X.38                raXgrRqLeDFRjFbXXJd3vQgjymoLkbzic5
+    X.39                r9VUjVRKEFyBNmFRKPCjHbjYUv8QvJ5xyu
+    X.40                rs5Kyt6CoYsYx5E6HVpcKGQjVa6trzrBa4
+    X.41                r9LVrQDxq9R4mSN2XezNDAXbAeUtRwBrvu
+    X.42                rMPNPj8nwiKsBNTRRMGtgRnAdXK17Wvuep
+    X.43                rh9uD31E8B3nWbPCGNVNkTE1QzA2486Yom
+    X.44                rHrck4S1n9kmyWyFPJHAegLKtRFNmwC2ic
+    X.45                rjcDqW25DCTpAUnKi9T8aiMe32vEy8JHt
+    X.46                rh5PSrnbYZ31ZVRWNgcEZDNhTmV61rshVK
+    X.47                rhBKQBvsyDnSnLgU5D1DcbNKq34To6G2Mr
+    X.48                r3RVftuvnhuWyTykK2R2XaD6vepwyfnCYs
+    X.49                rLDwkvrMVbbJ9WLaXpNaPM9k9AinJwNPSg
+    X.50                rhMb2LRHvyouHMF9WoWMJ29mdDTUgEdiA5
+  ]] # X.***  signifies anonymous account that is active in Ripple
 
   Addresses = Contacts.invert
 end
