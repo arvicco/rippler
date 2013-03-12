@@ -34,7 +34,11 @@ Rippler also provides additional commands that print out human-readable output:
 
     $ rippler history account:molecular
 
-This one prints account history in a human-readable format.
+This one prints any account history in a human-readable format.
+
+    $ rippler balances account:bitstamp
+
+This one prints out all outstanding balances (debit/credit IOUs and XRP) for a specific account. For example, you can see who holds Bitstamp BTC and fiat IOUs, and how much.
 
     $ rippler monitor streams:[ledger,transactions]
 

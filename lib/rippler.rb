@@ -10,6 +10,7 @@ require 'rippler/money'
 require 'rippler/account'
 require 'rippler/ledger'
 require 'rippler/transaction'
+require 'rippler/line'
 
 module Rippler
   extend Rippler::Utils
@@ -106,6 +107,26 @@ module Rippler
         pp message
       end
     end
+  end
+
+  # Retrieve non-trivial balances (IOUs and XRP) for a given Ripple account
+  def self.balances params
+    # Request IOU trust lines and balances
+    reply = request( {'command' => "account_lines",
+                      'account' => DEFAULT_ACCT,
+                      }.merge(params) )
+    lines = reply["result"]["lines"]
+
+    # Request account info (with XRP balance)
+    reply = request( {'command' => "account_info",
+                      'account' => DEFAULT_ACCT,
+                      }.merge(params) )
+    xrp_balance = Account(reply["result"]["account_data"]).balance
+
+    lines.map do |line|
+      line = Line.new(line)
+      line.to_s if line.balance.to_f.abs > 0.00001
+    end.compact.push("XRP balance: #{xrp_balance}")
   end
 
   # Retrieve account transactions history, print out nicely formatted transactions
