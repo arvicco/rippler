@@ -29,7 +29,7 @@ module Rippler
     end
 
     def name
-      if @name && @name =~ /X\.\d*/
+      if @name && @name =~ /^X\.\d+/
         "X.#{@address}"
       else
         @name
