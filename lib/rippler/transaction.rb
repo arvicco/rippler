@@ -17,8 +17,10 @@ module Rippler
         when "OfferCancel"
           "CAN #{Account(tx['Account'])} ##{tx['Sequence']}"
         when "OfferCreate"
+          get = Money(tx['TakerGets'])
+          pay = Money(tx['TakerPays'])
           "OFR #{Account(tx['Account'])} ##{tx['Sequence']} offers " +
-            "#{Money(tx['TakerGets'])} for #{Money(tx['TakerPays'])}"
+            "#{get} for #{pay} (#{get.rate(pay)})"
         when "TrustSet"
           "TRS #{Money(tx['LimitAmount'])} #{Account(tx['Account'])}"
         else

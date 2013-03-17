@@ -30,6 +30,31 @@ module Rippler
       @value = @value.to_i if @value.to_i == @value
     end
 
+    # Uniform currency rate presentation
+    def rate cross
+      first, second =
+      if self.xrp? || cross.dym?
+        [self, cross]
+      elsif cross.xrp? || self.btc?
+        [cross, self]
+      else
+        [self, cross]
+      end
+      r = first.value.to_f/second.value.to_f
+      r = r.to_i == r ? r.to_i : r
+      "#{r}#{first.currency}/#{second.currency}"
+    end
+
+    # Allows methods such as xrp? usd? or btc?
+    def method_missing meth, *args
+      curr = meth.to_s.upcase.match(/^(...)\?$/)[1]
+      if curr
+        currency == curr
+      else
+        super
+      end
+    end
+
     def to_s
       if @issuer
         "#{@value}/#{@currency}/#{Account(@issuer)}"
