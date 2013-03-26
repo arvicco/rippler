@@ -24,6 +24,8 @@ Rippler supports Ripple API commands (https://ripple.com/wiki/RPC_API). All para
 
     $ rippler account_tx account:evoorhees ledger_min:0 ledger_max:400000
 
+    $ rippler book_offers taker_pays:USD/bitstamp taker_gets:BTC/bitstamp
+
     $ rippler subscribe streams:[ledger]
 
 Ripple server replies are returned as JSON and printed to stdout. If you want to do some post-processing of the results, get the source from Github and modify bin/rippler script.

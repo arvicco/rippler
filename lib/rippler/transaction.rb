@@ -43,6 +43,7 @@ module Rippler
     end
   end
 
+  # Sort transactions by their timestamps
   def <=> other
     timestring <=> other.timestring
   end

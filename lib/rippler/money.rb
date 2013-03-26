@@ -8,6 +8,8 @@ module Rippler
     # Hash:  {'value' => xx, 'currency' => 'XXX', 'issuer' => 'ZZZZZZZ'}
     # String: 'value/currency(/issuer)'
     # Int in a String: XRP amount in drops (x1,000,000)
+    # ? Also, generic currency id without value:
+    # ? XRP or USD/bitstamp
     def initialize data
       case data
       when Hash
@@ -28,6 +30,7 @@ module Rippler
       end
 
       @value = @value.to_i if @value.to_i == @value
+      @issuer = Account(@issuer) if @issuer
     end
 
     # Uniform currency rate presentation
@@ -57,14 +60,18 @@ module Rippler
 
     def to_s
       if @issuer
-        "#{@value}/#{@currency}/#{Account(@issuer)}"
+        "#{@value}/#{@currency}/#{@issuer.name}"
       else
         "#{@value}/#{@currency}"
       end
     end
 
     def to_hash
-      {'value' => @value.to_s, 'currency' => @currency, 'issuer' => @issuer}
+      if @issuer
+        {'value' => @value.to_s, 'currency' => @currency, 'issuer' => @issuer.address}
+      else
+        {'value' => @value.to_s, 'currency' => @currency}
+      end
     end
   end
 end
