@@ -43,7 +43,6 @@ module Rippler
     X.16                rUGNvasUuxLiPL5RXvfZXW8HjBtSHZgqgz
     X.17                rPyuHFYDwYMGJ5xhMbzfYeikx7ARV3ExvF
     X.18                r4MZrGMPEHfxGNQHR92BJo5hU9BiqMsTej
-    X.19                r3ADD8kXSUKHd6zTCKfnKT3zV9EZHjzp1S
     X.20                rnW7DHtmZGJk4uhGTSU2BW3iPCPWb2xegg
     X.21                rUrdFHbrEKWNQQ444zcTLrThjcnHCw2FPu
     X.22                r49nVgaYSDuU7GEQh4mF1nyjsXSVRcUHsr
@@ -95,6 +94,7 @@ module Rippler
     bitstamp            rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B
     bitstamp.hotwallet  rrpNnNLKrartuEqfJGpqyDwPj1AFPg9vn1
     bitstamp.NejcKodric rphasxS8Q5p5TLTpScQCBhh5HfJfPbM2M8
+    RippleUnion         r3ADD8kXSUKHd6zTCKfnKT3zV9EZHjzp1S
 
     TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
     BankOfZed           ra88Lr8fyo9cUTuyjVFMTrvTSBU93erjyh
