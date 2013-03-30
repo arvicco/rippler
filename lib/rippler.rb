@@ -18,14 +18,19 @@ module Rippler
   RIPPLE_URI = 'wss://s1.ripple.com:51233'
   DEFAULT_ACCT = Rippler::Contacts["molecular"]
 
+  def self.parse_params command_line
+    params = command_line.map {|p| p.split(':',2)}.flatten.        # get json pairs
+      map {|p| p =~ /\[.*\]/ ? p.gsub(/\[|\]/,'').split(',') : p}. # get arrays
+      map {|p| p =~ /\{(.*)\}/ ? self.parse_params($1.split(/\s*,\s*/)) : p} # get objects
+    Hash[*params]
+  end
+
   # Turn command line arguments into command json
   def self.process args
     command_line = args.empty? ? ['account_info'] : args.dup
 
     command = command_line.shift
-    params = command_line.map {|p| p.split(':')}.flatten. #         get json pairs
-      map {|p| p =~ /\[.*\]/ ? p.gsub(/\[|\]/,'').split(',') : p} # get arrays
-    params = Hash[*params]
+    params = self.parse_params command_line
 
     params['account'] = Account(params['account']).address if params['account']
 
