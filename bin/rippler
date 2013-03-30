@@ -6,4 +6,16 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rippler'
 require "pp"
 
-pp Rippler.process ARGV
+if ARGV[0] == '-t'
+	ARGV.shift
+
+	Rippler.process(ARGV).each do |v|
+		if v.is_a?(String)
+			puts v
+		else
+			pp v
+		end
+	end
+else
+	pp Rippler.process ARGV
+end
