@@ -29,7 +29,7 @@ module Rippler
 
     params['account'] = Account(params['account']).address if params['account']
 
-    # p command, params
+    p command, params
 
     if respond_to? command # pre-defined Rippler method
       send command, params
@@ -84,20 +84,20 @@ module Rippler
     end
   end
 
-  ### These API commands need some pre/post-process wrappers
+  # ### These API commands need some pre/post-process wrappers
 
-  # book_offers needs to convert "taker_gets" & "taker_pays" params
-  # from  "CUR/issuer" to { "currency": currency, "issuer" : address },
-  def self.book_offers params
-    taker_gets = Money("0/#{params['taker_gets']}")
-    taker_pays = Money("0/#{params['taker_pays']}")
+  # # book_offers needs to convert "taker_gets" & "taker_pays" params
+  # # from  "CUR/issuer" to { "currency": currency, "issuer" : address },
+  # def self.book_offers params
+  #   taker_gets = Money("0/#{params['taker_gets']}")
+  #   taker_pays = Money("0/#{params['taker_pays']}")
 
-    reply = request( params.merge('command' => "book_offers",
-                                  'taker_gets' => taker_gets.to_hash,
-                                  'taker_pays' => taker_pays.to_hash))
+  #   reply = request( params.merge('command' => "book_offers",
+  #                                 'taker_gets' => taker_gets.to_hash,
+  #                                 'taker_pays' => taker_pays.to_hash))
 
-    # lines = reply["result"]["lines"]
-  end
+  #   # lines = reply["result"]["lines"]
+  # end
 
 
   # Subscribe needs a streaming wrapper
@@ -155,7 +155,7 @@ module Rippler
                       'sort_asc' => 1
                       }.merge(params) ) #(optional)
     txs = reply["result"]["transactions"]
-    txs.map {|t| Transaction.new(t)}.map(&:to_s)
+    txs.map {|t| Transaction.new(t)}.map(&:to_s).reverse
     .push("Total transactions: #{txs.size}")
 
   end
