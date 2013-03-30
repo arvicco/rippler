@@ -46,6 +46,10 @@ This one prints out all outstanding balances (debit/credit IOUs and XRP) for a s
 
 This one monitors Ripple transactions in real-time similar to #ripple-watch, but more interesting since it shows known account names instead of opaque addresses. Ctrl-C to stop it.
 
+	$ rippler path_find source_account:RippleUnion destination_account:singpolyma 'destination_amount:{currency:CAD, value:1}'
+
+This one finds possible paths for amounts of money between two addresses, and prints out what the source would have to send to get that amount to the destination.
+
 ## Contacts database
 
 Contacts database is in lib/rippler/contacts.rb, mostly auto-scraped from Bitcointalk. It may be a bit inaccurate, you can modify/extend it as you see fit.

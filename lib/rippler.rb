@@ -33,6 +33,8 @@ module Rippler
     params = self.parse_params command_line
 
     params['account'] = Account(params['account']).address if params['account']
+    params['destination_account'] = Account(params['destination_account']).address if params['destination_account']
+    params['source_account'] = Account(params['source_account']).address if params['source_account']
 
     # p command, params
 
@@ -162,6 +164,25 @@ module Rippler
     txs = reply["result"]["transactions"]
     txs.map {|t| Transaction.new(t)}.map(&:to_s)
     .push("Total transactions: #{txs.size}")
+  end
 
+  def self.path_find params
+    params.merge!('command' => 'ripple_path_find')
+    if params['destination_amount'] && ! params['destination_amount']['issuer']
+      params['destination_amount']['issuer'] = params['destination_account']
+    end
+    reply = request(params)
+    reply['result']['alternatives'].map {|alt|
+      if alt['source_amount'].is_a?(String)
+        # XRP as per https://ripple.com/wiki/JSON_API#XRP
+        if alt['source_amount'] =~ /\./
+          alt['source_amount'].to_f
+        else
+          alt['source_amount'].to_i.to_f / 1000000
+        end
+      else
+        "#{alt['source_amount']['value']}/#{alt['source_amount']['currency']}/#{alt['source_amount']['issuer']}"
+      end
+    }
   end
 end
