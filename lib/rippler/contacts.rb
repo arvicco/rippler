@@ -13,7 +13,6 @@ module Rippler
     X.FortKnox.9        rp7gaQch2fiNQHDPrnPk9pG65e9cnv7g6X
     X.FortKnox.a        rstKSeB2Qx7zrwSkyc7X9Xm5nYTJqtL3iM
     X.FortKnox.b        rJYMACXJd1eejwzZA53VncYmiK2kZSBxyD
-    X.FortKnox.c        r9ycgvDgXjeiaYmoz4F8sKBNXgHHx1wVFM
     X.Distributor.1     r8TR1AeB1RDQFabM6i8UoFsRF5basqoHJ
     X.Veirou            rhq5LEZSWHWY6H3raiC2KGe8TVeirou4BS
     X.Wow               rHD7Bs8Zk1oQeUhLjPrsFStFcRE2NWoWpe
@@ -82,7 +81,6 @@ module Rippler
     X.56                rDZ8QghKF4C11pmbVAkqumPTehiF8mfHt3
     X.57                rDGd76GCnZYGhjiAngV3xrPV4Qkfx79qqp
     X.58                r9Y4Mdhs339CxpCFxgdBVRcuM5i4rMRbu
-    X.59                rPcu8U9dSsK6nHtqgpeSvjuFTmNGq3arPh
 
     ADDRESS_ONE         rrrrrrrrrrrrrrrrrrrrBZbvji
     OpenCoin            rJR7gjNe3DpJ7kpB4CHBxjDKfwVMpTKPpj
@@ -95,6 +93,7 @@ module Rippler
     bitstamp            rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B
     bitstamp.hotwallet  rrpNnNLKrartuEqfJGpqyDwPj1AFPg9vn1
     bitstamp.NejcKodric rphasxS8Q5p5TLTpScQCBhh5HfJfPbM2M8
+    bitstamp.wholesale  r9ycgvDgXjeiaYmoz4F8sKBNXgHHx1wVFM
 
     TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
     BankOfZed           ra88Lr8fyo9cUTuyjVFMTrvTSBU93erjyh
@@ -577,10 +576,21 @@ module Rippler
     v7znay              rGNNQZo3KXaeC8i33FmbddUk43iRELPkKk
     wannabitcoin        rLubad3VQxaeT6qk43jEGPJX7ADkMBkwTM
     webr3               rnW7DHtmZGJk4uhGTSU2BW3iPCPWb2xegg
+    webr3.1             rPcu8U9dSsK6nHtqgpeSvjuFTmNGq3arPh
     WikileaksDude       rE7QqUJQWFGu7JZU6E9byysF6Qu5UQjQkP
+    WikileaksDude.1     r9nzyxxnnmf2Qg8HjKYdwWSN6YJXJtMpQ
     LoweryCBS           rBiYVjzHRQxMDMdC5ynKsejqoy1qJMQ8zR
     ScratAcorns         rEwNm7FWSy4whunsNRCebPbDktjeoGhdbS
     Dreamweaver         rnt5BahXixR8PeBwsYXynN6Ew8MCn87GUn
+    nomis               rUr7cFcUasrhZ234RZKfKHmQNzM5FPQEHi
+    alberthrocks        rUaEuoMVzmZNxx3etp8DhEWGD6UeJaoiq4
+    Xenius              rfaLKpYas7BLsjnbm2dpPDQRKaNbBLGTgs
+    liamwli             rEvjdo5evfU65J9evHZyHFsEVs4t4Mbfqr
+    fghj                rHpaEMuN84JR6VT2umSbtSrHJ8JGWyza8f
+    MasonIII            rsieHiunKBtHr1JXZZvU98erDkG8MD7R2r
+    macbook-air         rp3dmTa3i1aFY1JwsMKc1WVKJtdj3s6cHc
+    Dabs                rsAbwKtKaePtmVZhS5H2eT5K4u9UWR7mX5
+    Liquid              rsuvuGXuWdoRUJXiLQ7z9kyM4tjuXgrZJs
   ]]
 
   Addresses = Contacts.invert
