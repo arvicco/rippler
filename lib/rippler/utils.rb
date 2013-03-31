@@ -15,5 +15,9 @@ module Rippler
     def Account(data)
       Rippler::Account.new(data)
     end
+
+    def Offer(data)
+      Rippler::Offer.new(data)
+    end
   end
 end
