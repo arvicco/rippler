@@ -506,6 +506,7 @@ module Rippler
     DrG.1               rJEZjBv27ZHCPAoDtTBJb9r82VnUdkRd77
     DrG.2               rQNFxWVBxnjeF5gaFKwoj5nr3WansCtR19
     UnitClick           rLKojeESeKi9mdBuPLkiQhCxs4wh8iKy2W
+    UnitClick.1         rJrJuCmNuZ9shGgZvAhM6Xsv8PdghQTokc
     saddambitcoin       rMSEYpzcRtkiA5kkxYEWZtvLr8u3jnn385
     helloworld111       rwGAnUvzT5yrDz6dXxm6MWVhpV9abm39W3
     dykast              rQfwn3GVHVEfTpjqU2Y3BoMGAGHrw43XnT
@@ -591,6 +592,10 @@ module Rippler
     macbook-air         rp3dmTa3i1aFY1JwsMKc1WVKJtdj3s6cHc
     Dabs                rsAbwKtKaePtmVZhS5H2eT5K4u9UWR7mX5
     Liquid              rsuvuGXuWdoRUJXiLQ7z9kyM4tjuXgrZJs
+    Projects            rsjPEDMnjdcKRJhCDm61YbXPNgJN6tjoPc
+    Snowpea             rsCmWSczxBpRri57jcMw8duYJETaspFRd9
+    stick               rQy7ajMPs2WMmMgLTtZtadLxTEvsXDhRF
+    darkmule            r4VfSDJZNX53TRd6nExAmzsPdX7jbRSHf1
   ]]
 
   Addresses = Contacts.invert
