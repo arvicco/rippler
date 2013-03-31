@@ -32,9 +32,13 @@ Ripple server replies are returned as JSON and printed to stdout. If you want to
 
 ## Usage: additional commands
 
-Rippler also provides additional commands that print out human-readable output:
+Rippler also provides additional commands that print out human-readable output. You can use option -t for text (rather than structural) output.
 
-    $ rippler history account:molecular
+    $ rippler -t order_book buy:BTC/bitstamp sell:XRP
+
+This one prints current order book for any currency pair.
+
+    $ rippler -t history account:molecular
 
 This one prints any account history in a human-readable format.
 

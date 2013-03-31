@@ -11,6 +11,7 @@ require 'rippler/account'
 require 'rippler/ledger'
 require 'rippler/transaction'
 require 'rippler/line'
+require 'rippler/offer'
 
 module Rippler
   extend Rippler::Utils
@@ -36,7 +37,7 @@ module Rippler
     params['destination_account'] = Account(params['destination_account']).address if params['destination_account']
     params['source_account'] = Account(params['source_account']).address if params['source_account']
 
-    p command, params
+    # p command, params
 
     if respond_to? command # pre-defined Rippler method
       send command, params
@@ -91,20 +92,15 @@ module Rippler
     end
   end
 
-  # ### These API commands need some pre/post-process wrappers
+  ### These API commands need some pre/post-process wrappers
 
-  # # book_offers needs to convert "taker_gets" & "taker_pays" params
-  # # from  "CUR/issuer" to { "currency": currency, "issuer" : address },
-  # def self.book_offers params
-  #   taker_gets = Money("0/#{params['taker_gets']}")
-  #   taker_pays = Money("0/#{params['taker_pays']}")
-
-  #   reply = request( params.merge('command' => "book_offers",
-  #                                 'taker_gets' => taker_gets.to_hash,
-  #                                 'taker_pays' => taker_pays.to_hash))
-
-  #   # lines = reply["result"]["lines"]
-  # end
+  # book_offers should accept "taker_gets" & "taker_pays" params
+  # in both "CUR/issuer" and {"currency":currency, "issuer":address} formats
+  def self.book_offers params
+    request( params.merge('command' => "book_offers",
+                          'taker_gets' => Money(params['taker_gets']).to_hash,
+                          'taker_pays' => Money(params['taker_pays']).to_hash))
+  end
 
 
   # Subscribe needs a streaming wrapper
@@ -114,6 +110,22 @@ module Rippler
   end
 
   ### These are user-defined methods that post-process Ripple replies
+
+  # Subscibe to event streams, print events out nicely formatted
+  def self.order_book params
+
+    buy = params['buy']
+    sell = params['sell']
+    reply = book_offers('taker_gets' => buy,'taker_pays' => sell)
+
+    asks = reply['result']['offers'].map {|o| Offer.new(o)}
+
+    reply = book_offers('taker_gets' => sell,'taker_pays' => buy)
+
+    bids  = reply['result']['offers'].map {|o| Offer.new(o)}
+
+    (asks.reverse + bids.unshift("-"*40) ).map(&:to_s)
+  end
 
   # Subscibe to event streams, print events out nicely formatted
   def self.monitor params
