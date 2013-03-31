@@ -18,13 +18,18 @@ module Rippler
         @issuer = data['issuer']
       when String
         @value, @currency, @issuer = *data.split('/')
-        if @currency
-          @value = @value.to_f
+
+        if @value.to_f == 0 # No value, must be generic currency: XRP or USD/bitstamp
+          @currency, @issuer = @value, @currency
         else
-          @value = @value.to_i/1000000.0
-          @currency = "XRP"
+          if @currency
+            @value = @value.to_f
+          else
+            @value = @value.to_i/1000000.0
+            @currency = "XRP"
+          end
         end
-      when Int
+      when Integer
         @value = data.to_i/1000000.0
         @currency = "XRP"
       end
@@ -44,8 +49,8 @@ module Rippler
         [self, cross]
       end
       r = first.value.to_f/second.value.to_f
-      r = r.to_i == r ? r.to_i : r
-      "#{r}#{first.currency}/#{second.currency}"
+      r = r.to_i == r ? r.to_i : r.round(2)
+      "#{r} #{first.currency}/#{second.currency}"
     end
 
     # Allows methods such as xrp? usd? or btc?
