@@ -13,9 +13,29 @@ module Rippler
       @data['tx'] || @data['transaction']
     end
 
+    def type
+      self.tx['TransactionType']
+    end
+
+    def amount
+      Money(self.tx['Amount'])
+    end
+
+    def from
+      self.tx['Account']
+    end
+
+    def to
+      self.tx['Destination']
+    end
+
+    def date
+      Time(tx['date'])
+    end
+
     def timestring
       if tx
-        "#{Time(tx['date']).strftime("%Y-%m-%d %H:%M:%S")} "
+        "#{self.date.strftime("%Y-%m-%d %H:%M:%S")} "
       end
     end
 
