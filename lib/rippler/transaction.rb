@@ -29,6 +29,10 @@ module Rippler
       self.tx['Destination']
     end
 
+    def dt
+      self.tx['DestinationTag']
+    end
+
     def date
       Time(tx['date'])
     end
