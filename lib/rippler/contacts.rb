@@ -42,6 +42,7 @@ module Rippler
     X.16                rUGNvasUuxLiPL5RXvfZXW8HjBtSHZgqgz
     X.17                rPyuHFYDwYMGJ5xhMbzfYeikx7ARV3ExvF
     X.18                r4MZrGMPEHfxGNQHR92BJo5hU9BiqMsTej
+    X.19                rNtMSgKeLf21TH3L7L8nFwVi2zyVF9T5Yt
     X.20                rnW7DHtmZGJk4uhGTSU2BW3iPCPWb2xegg
     X.21                rUrdFHbrEKWNQQ444zcTLrThjcnHCw2FPu
     X.22                r49nVgaYSDuU7GEQh4mF1nyjsXSVRcUHsr
@@ -80,6 +81,24 @@ module Rippler
     X.56                rDZ8QghKF4C11pmbVAkqumPTehiF8mfHt3
     X.57                rDGd76GCnZYGhjiAngV3xrPV4Qkfx79qqp
     X.58                r9Y4Mdhs339CxpCFxgdBVRcuM5i4rMRbu
+    X.59                rGBMviRUaDYaEbCZquX31wvGR5yEhWgfdJ
+    X.60                rGcFdeM9FqQLQWQy6V5pconezHYfq6mXCL
+    X.61                rUrgNM8UvqGXPFVynxSsvKKAATFtqJGZSw
+    X.62                rJW9yaoWmcfxB1ivTgHHdZHvRfV14K5xGt
+    X.63                rGEEx7tBiVN2J3RQwxCTTccy2tUA6KScg4
+    X.64                rPDPTbuKRkARs5jKGsbr2p488QerH7wXHx
+    X.65                r4xo1vsNdN5mHAimGK5LhimxgvwbcqP3cG
+    X.66                rD1jovjQeEpvaDwn9wKaYokkXXrqo4D23x
+    X.67                rEzuagdqGatLMC4ZsxanWJEavtCoS8Pcbr
+    X.68                r9a3aCcvjmrCeBBtwY9oiRMrnsFtnLf7CV
+    X.69                rfANz1h657WBrWHSnBSaMbbDiuRqNwKSpw
+    X.70                rmnHyfkJWo55AQQcp7gYwG5W1r1WjrSrC
+    X.71                rDB13YyRWHNyPzqH8LWuzYXYujitqErfX4
+    X.72                raY5E4X5ULAEDBg9f9H6FBYigxjGxPPVgw
+    X.73                rffUHd2sSn5jgzv5dj6u8nDvgpyp962Jz3
+    X.74                rDGABm9nvrGYj1kZmep76rLiZwPv2Te9Pj
+    X.75                rDeq826aK8fdnnSy1oYMYGog8jj8nX3DXK
+    X.76                rG131kWmej2huHs74Qaz4wV99dCeavo8ph
 
     ADDRESS_ONE         rrrrrrrrrrrrrrrrrrrrBZbvji
     OpenCoin            rJR7gjNe3DpJ7kpB4CHBxjDKfwVMpTKPpj
@@ -438,6 +457,20 @@ module Rippler
     levino              ram4N9y2k2Vtv3g3fWiTep9gkuqBQYG7oX
     levino.1            rpgKc15YqRMKfr517BcKJRC8YrtQs8iuVE
     levino.2            rPFWpTWmMn3BiRkGpBBa1GhKQtw82bwks7
+    vandordeak          rDt8b2bp7aJikHJbktKoujwcagR31JbTcF
+    nguoinhaque         rnNp2EAG88PpYnWHH1BVeSvhVVXSAyv7Zh
+    freequant           rf5rDutyNRmzRg3cZ4CNFEiKmvE51LdB5S
+    GRE3N               rGLEDgAcLC1ysejaDEzTnTmmZsbMW9UmxS
+    panic               rXjUhK47WP7QDa8ft5LrSQSxxtDJkhZyv
+    joshbb              rQKT6VfKrNW5KanBvwSTqJXwHfE6p2mmdx
+    tclo                rNXqK4ibcwi2JGmi8dJigTuszcinC61ths
+    bitfon              rhMcGkfZ3ezB3wmhT1haTHeUGoYG3WwFoj
+    melvster            rwxo7BUnJwkq11upp4FsPK6kMLnHim5FM
+    czz                 rhGqFC4F3HubJUk7hK8YrHZvAjwzZurh3p
+    Evolvo              r4EM4gBQfr1QgQLXSPF4r7h84qE9mb6iCC
+    Schuhu              rKqEiBYew9cBoFs2zhExRLSUfvP75csoU2
+    mtrlt               rEZDpphT63A1qPgEWJYXJvpXShmqpUNFSp
+
 
     arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
     paysafecardbitcoin  rN4kvobWCZVSzgLmo27B4kMjakAL31pMSr
@@ -496,6 +529,7 @@ module Rippler
     gbl08ma             rsgg1U8UpYodp1GM3NDaYfMrZge97Gpvc9
     tosku               rBs43YZMn5QsYY9jZYcG4C3egEebUfGWh3
     BitcoinG            r3CxMDQFX1Atq1vQN5sqVsjm3rawGSwd32
+    BitcoinG.1          rMXZoruHCtqxyjvW4k4yKZnnD3ZrbcTCdX
     Gzarcov             rEg8hTqY7jhSkeFirfE5Fm7BF72WaaCnrB
     milly6              rQaxmmRMasgt1edq8pfJKCfbkEiSp5FqXJ
     crazyearner         rBcrMMTUKAQJd5tMEsy1zyTGRiy79gY9K3
@@ -596,6 +630,27 @@ module Rippler
     Snowpea             rsCmWSczxBpRri57jcMw8duYJETaspFRd9
     stick               rQy7ajMPs2WMmMgLTtZtadLxTEvsXDhRF
     darkmule            r4VfSDJZNX53TRd6nExAmzsPdX7jbRSHf1
+    middlemarkal        rD68fXM4oS9cZEySEVbaF5qdangbawtEye
+    SkyNet              rUVdfBaEi7xzDS3i58YYe8Ungzfw6iPXsL
+    Craftyman           rf6jwCTavdW2pUZHws41BwzkmNKEyLy98L
+    arij                rKHD6m92oprEVdi1FwGfTzxbgKt8eQfUYL
+    Justin00            rGAKQwmkgcKB7f8WJG4mUaS6fdt8Wtgpr2
+    rexcoin             rw1XB6oQ11VjzHYK8eJE2M6UkBCWZnRiob
+    ShireSilver         rfcxmsCTXsidkX3WXGL6wTSMVECKM8fRFQ
+    RHCwebhosting       rL6Q2626VwadaUQb9TcTB71gjwmWmvHARD
+    rvsh007             rpFxqkh4bmKWk6DmaALuqvJB8tf5bSG1JX
+    giarc               rLRLLiKp4zV2rhcZZC1z7Y4q4bQNnWjzwc
+    seleme              rUa8qbrfC9dNTxYfMnamN2C9BSc63ydTdz
+    uk1                 rwWEK4nhpQJmvXyvjCcGVh3EFUsWhX7Yde
+    ccliu               rNyNrpGuhwiRNt7WiLzTr4tXfWBNxz6CNv
+    wikiaki             rwMhhG5EJiajCJQRAEALv4hjScWq5r1MS8
+    Phetamine           rfHYTEUfTqA8viJnsKrWaPaD7nhiNPnbDn
+    Yuna                rGewAzerZ9o9sA7UUEHdM84uReE8AuR1WS
+    nixon               rHKWCB63grLKR2DZkHrWEovRgqrT2iGkHG
+    Blindfolded         rM81UNoguxDqnEqXLKwxdz2jNTs6pYv2h9
+    salt                rNhd9kZaTu6MUTjdRRh4ZLff6rN471f8om
+    jrlichtman          rKTYszGp7t8TeySvKGMDq24sQ4x39SdMDF
+    uuidman             rGeRuDP1Nc4Qt5vQJFixWNc7EcXTYrkcPw
   ]]
 
   Addresses = Contacts.invert
