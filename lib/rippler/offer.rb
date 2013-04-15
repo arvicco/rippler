@@ -51,12 +51,12 @@ module Rippler
     def funded
       if @data['taker_gets_funded'] || @data['taker_pays_funded']
         funds = Money(@data['taker_gets_funded'])
-        " (#{(funds.value/gets.value*100).round(2)}% funded)"
+        " (#{(funds.value/gets.value*100).round(4)}% funded)"
       end
     end
 
     def to_s
-      "OFR at #{gets.rate(pays)}, #{gets} for #{pays}" +
+      "OFR at #{gets.rate(pays)}, #{gets.value.round(4)} for #{pays.value.round(4)}" +
       "#{funded} by #{account} ##{@data['Sequence']}"
     end
   end
