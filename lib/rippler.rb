@@ -169,7 +169,7 @@ module Rippler
     reply = request( {'command' => "account_tx",
                       'account' => DEFAULT_ACCT,
                       'ledger_min' => 0, # 280000, # 312000,
-                      'ledger_max' => 500000, #329794,
+                      # 'ledger_max' => 500000, #329794,
                       'resume' => 0,
                       'sort_asc' => 1
                       }.merge(params) ) #(optional)
