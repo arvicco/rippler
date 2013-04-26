@@ -99,6 +99,10 @@ module Rippler
     X.74                rDGABm9nvrGYj1kZmep76rLiZwPv2Te9Pj
     X.75                rDeq826aK8fdnnSy1oYMYGog8jj8nX3DXK
     X.76                rG131kWmej2huHs74Qaz4wV99dCeavo8ph
+    X.77                rGRJaB8neSqEkD78zw8kuj3vK5mGNrd5jf
+    X.78                rDuEraqUXpRM5xiJoGsjsif7AiR2dVJsxk
+    X.79                rhRVV7Za2EkyWwxSrAwCsBkYk1PtvAJvsp
+    X.80                rszgoyGSSSSMEPCNXifYkADgKkbDRjw9pR
 
     ADDRESS_ONE         rrrrrrrrrrrrrrrrrrrrBZbvji
     OpenCoin            rJR7gjNe3DpJ7kpB4CHBxjDKfwVMpTKPpj
@@ -211,8 +215,7 @@ module Rippler
     speeder             rNzJ6ikJKXAxAaTPMZCcXr2sFkmg9a2GM9
     nelisky             rLDDq8ZGhCaVBP8MyYTifhCJzgWPQBjwpt
     nelisky.1           rKLw2zHgA31nRZN3erfZkfR8uhAkQ8s95P
-    nelisky.2           rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX
-    nelisky.3           r4LHsYdeK9CMoidCF5k6ubvzWfhJJUXo6C
+    nelisky.2           r4LHsYdeK9CMoidCF5k6ubvzWfhJJUXo6C
     mrmx                rKishCqMiQG6zhFHPjrFhXztLDjZteNmGP
     drewdtom            rsZvcvACPWoTN2Eazzb5radzQX18s3DuK8
     MadSweeney          r4pqusLQxgFNQQNByJMcTvQcYG9v1GpBum
@@ -470,7 +473,10 @@ module Rippler
     Evolvo              r4EM4gBQfr1QgQLXSPF4r7h84qE9mb6iCC
     Schuhu              rKqEiBYew9cBoFs2zhExRLSUfvP75csoU2
     mtrlt               rEZDpphT63A1qPgEWJYXJvpXShmqpUNFSp
-
+    clark3934           rK1AvcdWewFdFMxiQRmwkRroajdS8HGbKi
+    wofugang            rBhS13DTq3SdA7kqoVKJPa1iYXez1rtTie
+    debar               rfegYRJpv88ovjFfDZMbMdivYgFWvoDEwN
+    ft73                r98mpXY46SLriMASTyA1hJC5dgfhMy1phS
 
     arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
     paysafecardbitcoin  rN4kvobWCZVSzgLmo27B4kMjakAL31pMSr
@@ -610,6 +616,7 @@ module Rippler
     notserp             rPPTofqEgidtfpEkEkrtQdQ83kMnn1fiZa
     v7znay              rGNNQZo3KXaeC8i33FmbddUk43iRELPkKk
     wannabitcoin        rLubad3VQxaeT6qk43jEGPJX7ADkMBkwTM
+    wannabitcoin.1      rJTo1cHEe43dG1qyoBqPXsLiCUgktZvLFA
     webr3               rnW7DHtmZGJk4uhGTSU2BW3iPCPWb2xegg
     webr3.1             rPcu8U9dSsK6nHtqgpeSvjuFTmNGq3arPh
     WikileaksDude       rE7QqUJQWFGu7JZU6E9byysF6Qu5UQjQkP
@@ -651,6 +658,25 @@ module Rippler
     salt                rNhd9kZaTu6MUTjdRRh4ZLff6rN471f8om
     jrlichtman          rKTYszGp7t8TeySvKGMDq24sQ4x39SdMDF
     uuidman             rGeRuDP1Nc4Qt5vQJFixWNc7EcXTYrkcPw
+    rangeoflight        rNXqK4ibcwi2JGmi8dJigTuszcinC61ths
+    DividendRippler     rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX
+    rlh                 rBy3obxXdW8z2K3wGYLhMeTGpAsJappKaC
+    warped3go           rMKmQW2arz5oh9x1YUPyEHhfKVSCixC8np
+    Yuri                rKtRDiRt7eANbCPCvACQea2pXYGcdrLfDG
+    Scratch             rHzUz3F2Vize4eG2gkSADmLyT43UcHZa9S
+    Nyr                 rpwjcfi4GpCFH2NtFHytKAm6qvPHXHwmsa
+    Wiper               rwCwkVmCFX2wacQvRZNtuGmGvucEMi42Sj
+    Zodiac1233          rwor2VVTeaGu4X94DLGoxrKmsW7kU9SnYB
+    zybron              rakBkTSxwJYmLaSH84AZiEmyzX635ox49J
+    blastbob            rBWiGt3sVNgcbt3W7VMBKdsWNmSAVQkEG3
+    duketogo            rEFwWGPcUSq7zuwwPWWcMcs1KnfnTHzZ8P
+    casper77            rhHXGko2exQtAT1ohHoHiRCPNgNU34cB9W
+    loveliness          rEemeTvefUF5HDjqVeWXyPvDA8QUJdY2YQ
+    Unzafadocualquiera  r9JJ28tGZ9p83Ngqu4tWTCWYUSxU6FeRQC
+    weenfan             rKYHNpJWj9jKmNNGKiEhzv2ouWALfeUjTm
+    SectorZero          rH3j3ht1ri85yiHM3jH2h4NutCEGViT9Hc
+
+
   ]]
 
   Addresses = Contacts.invert
