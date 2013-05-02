@@ -20,8 +20,8 @@ module Rippler
   DEFAULT_ACCT = Rippler::Contacts["molecular"]
 
   def self.parse_params command_line
-    params = command_line.map {|p| p.split(':',2)}.flatten.        # get json pairs
-      map {|p| p =~ /\[.*\]/ ? p.gsub(/\[|\]/,'').split(',') : p}. # get arrays
+    params = command_line.map {|p| p.split(':',2)}.flatten.                  # get json pairs
+      map {|p| p =~ /\[.*\]/ ? p.gsub(/\[|\]/,'').split(',') : p}.           # get arrays
       map {|p| p =~ /\{(.*)\}/ ? self.parse_params($1.split(/\s*,\s*/)) : p} # get objects
     Hash[*params]
   end
