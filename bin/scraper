@@ -11,7 +11,7 @@ require 'faraday'
 require "pp"
 
 # URI to scrape Ripple addresses from (default: Bitcointalk giveaway thread)
-SCRAPE_URL = ARGV[0] || 'https://bitcointalk.org/index.php?topic=145506.0'
+SCRAPE_URL = ARGV[0] || 'https://bitcointalk.org/index.php?topic=145506.4100'
 # RE_ADDRESSS = /^r[1-9A-Za-z][^OIl]{25,35}/
 RE_ADDRESSS = /r[1-9A-Za-z]{25,35}/
 RE_TOPIC = /.*bitcointalk.org.*topic=.*\.(\d*)$/
@@ -123,4 +123,5 @@ output new_names, 'Scrapped address already in Contacts under different name', 5
 output new_addresses, 'Scrapped names already in Contacts with different address'
 output new_contacts
 
+puts '********************************************************'
 puts "Now, just add these new contacts to 'lib/rippler/contacts.rb'"
