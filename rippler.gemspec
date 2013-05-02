@@ -18,5 +18,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency 'faye-websocket', '~> 0.4'
-  # gem.add_dependency 'websocket-eventmachine-client', '~> 1.0'
+
+  gem.add_development_dependency 'nokogiri', '~> 1.5'
+  gem.add_development_dependency 'faraday', '~> 0.8'
 end

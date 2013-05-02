@@ -1,0 +1,126 @@
+#!/usr/bin/env ruby
+# This script scrapes Ripple contacts from Bitcointalk
+
+lib = File.expand_path('../../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
+require 'rippler'
+require 'uri'
+require 'nokogiri'
+require 'faraday'
+require "pp"
+
+# URI to scrape Ripple addresses from (default: Bitcointalk giveaway thread)
+SCRAPE_URL = ARGV[0] || 'https://bitcointalk.org/index.php?topic=145506.0'
+# RE_ADDRESSS = /^r[1-9A-Za-z][^OIl]{25,35}/
+RE_ADDRESSS = /r[1-9A-Za-z]{25,35}/
+RE_TOPIC = /.*bitcointalk.org.*topic=.*\.(\d*)$/
+
+# Establish Faraday connection
+def connect uri
+  Faraday.new(:url => "#{uri.scheme}://#{uri.host}") do |faraday|
+    faraday.response :logger                  # log requests to STDOUT
+    faraday.adapter  Faraday.default_adapter  # make requests with Net::HTTP
+  end
+end
+
+# Extract contacts from a single page
+def scrape_from_page conn, uri
+
+  response = conn.get "#{uri.path}?#{uri.query}"
+  doc = Nokogiri::HTML(response.body)
+
+  posts = doc.xpath("//div[@class='post']").
+      map {|p| p.children.reduce('') {|m,e| m + ' ' + e.content}}
+  # pp posts, posts.size
+
+  users = doc.xpath("//tr/td/b/a").
+      map {|p| p.children.first.content}
+  # pp users, users.size
+
+  # Extract address:name pairs, if any
+  pairs = posts.zip(users).map do |post,user|
+    address_match = post.match RE_ADDRESSS
+    if address_match
+     [address_match[0], user.gsub(/\s|`|,|\.|\(|\)|\|/, '')]
+    else
+      nil
+    end
+  end.compact
+
+  [Hash[*pairs.flatten], posts.size]
+end
+
+# Extract all contacts from a given URL (multi-page if needed)
+def scrape_all_contacts url
+  uri = URI.parse(url)
+  conn = connect(uri)
+
+  contacts, posts = scrape_from_page conn, uri
+
+  # Extract more pages from this topic if this page is full
+  # TODO: This infinite-loops if the last page has exactly 20 posts...
+  if posts == 20 && url =~ RE_TOPIC
+    position = url.match(RE_TOPIC)[1].to_i
+
+    while posts == 20 do
+      position += 20
+      url = url.split(/\./)[0..-2].push(position.to_s).join('.')
+
+      new_contacts, posts = scrape_from_page conn, URI.parse(url)
+      contacts.merge!(new_contacts)
+
+      p posts
+    end
+  end
+
+  contacts
+end
+
+# Format contacts output to be easily added to contacts.rb
+def output contacts, message='New Contacts', name_width=24
+  unless contacts.empty?
+    puts '********************************************************'
+    puts message + ':'
+    puts
+
+    contacts.each {|name, addr| puts "    #{name.ljust(name_width-1)} #{addr}"}
+
+    puts
+  end
+end
+
+#############################################################
+# All the script action happens here:
+
+# Extract contacts
+contacts = scrape_all_contacts SCRAPE_URL
+# pp contacts
+
+new_names = {}
+new_addresses = {}
+new_contacts = {}
+
+# Check if scraped contacts also present in contacts.rb
+contacts.each do |addr, name|
+  if Rippler::Addresses.keys.include?(addr)
+     # This address already in Contacts
+    old_name = Rippler::Addresses[addr]
+    unless old_name == name || old_name.upcase =~ Regexp.new(Regexp.escape(name.upcase))
+      new_names["#{old_name} -> #{name}"] = addr
+    end
+  elsif Rippler::Contacts.keys.include?(name)
+     # This name already in Contacts
+     old_addr = Rippler::Contacts[name]
+     new_addresses[name] = "#{old_addr} -> #{addr}"
+  else
+     new_contacts[name] = addr
+  end
+end
+
+# Format the output
+output new_names, 'Scrapped address already in Contacts under different name', 50
+output new_addresses, 'Scrapped names already in Contacts with different address'
+output new_contacts
+
+puts "Now, just add these new contacts to 'lib/rippler/contacts.rb'"
