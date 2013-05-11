@@ -24,6 +24,8 @@ module Rippler
     X.Tester.1          rLgXwzqSSCnQjA83tWP1j8D1Kf4zX9gMVj
     X.Tester.2          rHByiWNHuu4P4n9TuJBjkpbbZiptdywzd9
     X.Trader            rnT9PFSfAnWyj2fd7D5TCoCyCYbK4n356A
+    X.Hacker            rich5dnbBMtCG6pT8kxgeoFEDKBtoGzFu
+    X.Hacker.1          r4jmEwjk7KpkC9pJwYnYcLtrjEASczkPTm
     X.1                 rKdtD8YQXCJAnXoXQfmn645FybiaFWVghs
     X.2                 ramJoEsBUHc299vFuMvn8NgLrF3Qrt3XV4
     X.3                 r9tGqzZgKxVFvzKFdUqXAqTzazWBUia8Qr
@@ -53,7 +55,7 @@ module Rippler
     X.27                rakv2tqjdLLuPu5g5j4F5JW21Q4LNLc6Vn
     X.28                rnwRcxX4JpHnPjTJpaDH8YZzRPTphvsHbE
     X.29                rKWFsTLRPrgC8KDC7fCqQRzDsvajgcM1Tp
-    X.30                r4mscDrVMQz2on2px31aV5e5ouHeRPn8oy
+
     X.31                rHnxRmkRdL4NsAoxqN1xwKDuW49uosM3HL
     X.32                r3o9bK8Re9XZpFwZC6jXGwKBuhoLss9Mhc
     X.33                rKuuVUKA14roSPTuquQTo7nmWZN8EsfxpT
@@ -92,18 +94,37 @@ module Rippler
     X.67                rEzuagdqGatLMC4ZsxanWJEavtCoS8Pcbr
     X.68                r9a3aCcvjmrCeBBtwY9oiRMrnsFtnLf7CV
     X.69                rfANz1h657WBrWHSnBSaMbbDiuRqNwKSpw
+    X.70                ra2Mv6bbtoBtQt1AqPd232MN7Yf4zo1QCX
     X.71                rDB13YyRWHNyPzqH8LWuzYXYujitqErfX4
     X.72                raY5E4X5ULAEDBg9f9H6FBYigxjGxPPVgw
     X.73                rffUHd2sSn5jgzv5dj6u8nDvgpyp962Jz3
     X.74                rDGABm9nvrGYj1kZmep76rLiZwPv2Te9Pj
     X.75                rDeq826aK8fdnnSy1oYMYGog8jj8nX3DXK
+    X.76                rf6qUeDUDGmV9LuZmwXzrAJMeKsr9UDtw1
     X.77                rGRJaB8neSqEkD78zw8kuj3vK5mGNrd5jf
-    X.78                rDuEraqUXpRM5xiJoGsjsif7AiR2dVJsxk
+    X.78                rfAXpT6Qq6dfJVwKBJHuD5K25f5jCYwTQJ
     X.79                rszgoyGSSSSMEPCNXifYkADgKkbDRjw9pR
+    X.80                r9T6szWBe4QU8Mj8JYYiRCeD21c2VU8Yp5
+    X.81                r3iujJuRt7CkUVq4RBA5fNDABuYbCMJtCd
+    X.82                rL76tmsh1Pgy57B4KMqjqWL7mGhwG24xgv
+    X.83                rh8muHJvKUTvnGfj33WGq46ukaeHnwRf4f
+    X.84                rsMNCHHnvgMGh6vV7uaxgMu3HbL65D1wNw
+    X.85                rGEDQD48uACC2JFHykNLDPj1LPuU3QsqpV
+    X.86                rK6eZMdd1iq6dvBJ9Dfzo8A4KyxFqY7DVm
+    X.87                rfes2R9V3w1wvXAZkRMshMDWRXByxYV3VV
+    X.88                rU1LktVkibWnb6SYuDTZ2Sr2osGvWtBvQi
 
+    walko*              rMHaqNVHAoBLrDkjeNrvisKzkqAXeisQSN
+    Dorson*             rDuEraqUXpRM5xiJoGsjsif7AiR2dVJsxk
+    psych0tikx*         rKEyP8dJ4YmaZqAxKndn45b6GzQfRWLBVN
+    psych0tikx*.1       18RvmxBaEZArfanEYFZSL4NZTjyNMFa2dm
     derRipple*          rhRVV7Za2EkyWwxSrAwCsBkYk1PtvAJvsp
     wadiku*             rGoMwPesY3hpLA8DBGTqkVnRWwj1fSzCR2
     Tribex1301*         rpbZxQTeaRxJqSuLbKZR9PR6RJ1ffe66Yw
+    JuliaMay*           rUuBXGGxHUDDtU3dripL7zwEmcUWfh8R33
+    Jarunik*            r4vJQmpyT6iSgJgiBwJVGR9bwdfaho8LQt
+    goulart*            rhMebG3aENnMoSXQypDeSjQtwfWyEXGYy2
+    mrBea*              rhq29u5y5dbGvruHSyA44kb9kJTvqorQGD
 
     ADDRESS_ONE         rrrrrrrrrrrrrrrrrrrrBZbvji
     OpenCoin            rJR7gjNe3DpJ7kpB4CHBxjDKfwVMpTKPpj
@@ -118,6 +139,7 @@ module Rippler
     bitstamp.NejcKodric rphasxS8Q5p5TLTpScQCBhh5HfJfPbM2M8
     bitstamp.wholesale  r9ycgvDgXjeiaYmoz4F8sKBNXgHHx1wVFM
     RippleUnion         r3ADD8kXSUKHd6zTCKfnKT3zV9EZHjzp1S
+    DividendRippler     rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX
 
     TTBit               rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E
     BankOfZed           ra88Lr8fyo9cUTuyjVFMTrvTSBU93erjyh
@@ -125,6 +147,10 @@ module Rippler
     BobFromZed          r4ixnhDRE5VktpgtFkw5L8v1bNGsFusQJS
     ChrisFromZed        rPA9PquwamoriknybdishCdWp6N1m2iEF8
     SecondBankOfZed     rnqQ7YEStMBBqn6qBP4AYsyGhy1RKfUeRR
+
+    BitcoinG.xrptrader      r3CxMDQFX1Atq1vQN5sqVsjm3rawGSwd32
+    BitcoinG.xrptrader.1    rMXZoruHCtqxyjvW4k4yKZnnD3ZrbcTCdX
+    BitcoinG.xrptrader.2    rP9Lt7SZUEErkXAXyggceibTCEYbfSyx6n
 
     coin4value          rG131kWmej2huHs74Qaz4wV99dCeavo8ph
     InstantBTC          rmnHyfkJWo55AQQcp7gYwG5W1r1WjrSrC
@@ -364,6 +390,7 @@ module Rippler
     BitcoinINV          rfnLrGMxYy6cZX6rYZG8Bmm1aZ9hABjLg
     Sukrim              rniJ952TF2ohA3YhjhHMXAw4wsnybcvrCd
     Tomatocage          r9Q6hofH2h1JNZigtDXErcqJBQnSR54C2p
+    Tomatocage.1        r4xQqKS5uc1jgJpEzcNq3A79uaHaR9MfFd
     steamboat           r9qGea2zDAV9m4SoNkcToqwojhXkrdnrJA
     rezin777            rHzaENRgWuyMJh8EdkgpK1QwTKsgHoJZSs
     MoneyIsDebt         rDrDCTWPAguTVYVjqpys8fsgR1x7BMoWRy
@@ -497,6 +524,8 @@ module Rippler
     1PFYcabWEwZFm2Ez5LGTx3ftz         rach2Jj71pLRAXTgydhaSapbgHXjGGTGb
     n8rwJeTt8TrrLKPa55eU              rJkbqzYVn5ZpAZq914fnKVEFuZ1HPyUwnP
 
+    TT                      r4mscDrVMQz2on2px31aV5e5ouHeRPn8oy
+    Escalator21             rws3KDQdnEmdmwyBgSKBcJZu6VsqrJUneP
     neotrix                 rfFN6a3gmeGv5F3kbd2WtQeYkfiweiujM3
     torbank                 rnPHdVdmhxxyrDFM1VQLybUGNPBuqHTiP4
     BrannigansLaw           rLWTqkUC3xGWkLW3L8azyGqprD31E99bUU
@@ -3413,6 +3442,7 @@ module Rippler
     btcmank                 rDKeurx1VZPJxey6CKsDNz3SR9EiCZJpVi
     Arceny                  rNHDxVqe4vHQVvfpk64oFweLyndkk4Vsfj
     gmg                     ray66wQ5NZKMuLAnEVbPVP2gXfQ4XBuERL
+    gmg.1                   rEBFLXk6VPKP6BwSWHC7xgmrA355C9g69H
     Sagara                  rBNroZw2XMjrPEuG4Mktksc4dq2nTYoJgL
     tocai                   rJvo8wyzsh4H7iNJ4D8GNSvY3m9NvM1W2J
     bonusmania              rNuLwDbr4sWWMq2U3H8caQKoVgULsSe1QL
@@ -3527,6 +3557,479 @@ module Rippler
     ventrabit               rnhcXRc5bNYXnYm2vbdPrjNNLvPB3Vugwf
     mah87                   rGd4FaNjg22EvTuot3SRKF1suueUSc8Lhd
     spirale                 rGfqgECdMYGJYhYcRu6ZjcjDZNKgUkvsGX
+    ergofobe                rNcitQ2aHunEhoqPBzLu8D9wF6UgwASoGU
+    TBCM                    rHirHPx7sLxZxnE8k9MohLWtrvtKmovsUR
+    libcoin                 r38XVgX5e4GazRRFB8brYzjtRtt3uQkGrq
+    boomerlu                r338EirQNSSQ3wKpxKHkekba3KVvCvGWb3
+    aoom                    rf95or6kJ2HqgdZ41vu7nRRAnuAj6a7LQy
+    Osso                    rG5Cktnj26Y8hT6BBGXZV6zMiE5KbMyS2v
+    imafish2002             rLXtUTV2r98DkWykhzEex3yWboyAZ2xteG
+    valdepretium            rK4Vz46MZKu7Ptfh6DXh2q4KYGoGcxAxAb
+    spoid                   rL8fh3miajPAmds9rKFfvvUAsrymvUiakf
+    BigMiner                rATN3v673zqinZE4pJ3q49CJU5FVvaXfR
+    slug                    rhrvLjtuNpgyTpScX57MubMdvrYPaQTqN9
+    crazy-pilot             rKv44uV6BgDXHM7UaLPmEP9Hna9k3SahGK
+    oceans                  rwQYT8GDpe6gNZre3Km5yfHPv7APggY3mV
+    promaynerppz            rJVH5wQyotUPzfbqJc5CLq5VViEtS5L8yL
+    eipku                   rhVhNDhUCeUZJ4f4PX3bQAJyRwgqHh1pg4
+    Woodman                 rBKZt8chMJGyzpf9588FQHf9ZY6Yx6jH3o
+    snappa4ever             rMsyepM6tYddZBVQdtUYCHvGi3XkW7kQmD
+    AtomicStrike            rPDSGCUXMpG5396DW4ZHYgJc6iiFP3RHza
+    TransAtlantic           rh8KFAsEWTF5UtkfQwxRmGYTJn2oaDzmsn
+    dvda2k                  rfQ6q1AWuBMNmKKQZ9qKmU2BrevYMaZN28
+    tentoamillion           rpJhTV4tb8tbW6CmbbtMjf8tNXwqAbMKL6
+    Tengo                   rfbSf2aSwMZdXHBC2cwNHpeqK4uFS79Sky
+    bun_lope                rBXNo2vP8hdxBZ3bq9U4hdCpU5dBRoJBZk
+    1977Vlad                rLn7dJ2zUVPUd617Uz2Q6WqntcC7Y1PdYT
+    smiba                   rHwpnCA2o5h8cowLMaUXDpvEvfXVtpPcMX
+    Strike001               rPVMebRKKF2rXdcT8cQcK1NRLw7W6i3nMr
+    pajarator               rP2uRS9ofDgcerHjWP8c5SAsbxjSZb7RQf
+    BerenddeBoer            rNHBD6Lzm1fww8i39Caft7F8QuzE8PNuWN
+    Yurock                  rGdw1LwnUM5axHp6G6tzJsN68MeRvXo8mV
+    jj9guy                  r363G4gtPupdB5i8Rjxs366A5DWEFvNEKF
+    protocolized            rpbAc8dibigqVSMenbVDN3Hdnka7LwjJDL
+    Andry                   rasqeKEjEr44TvgRcT522WW2BdznDcgBC1
+    zhaoxianpeng            rLyKGXvYJyisFcPQcbkVzhx4Jz3Tm4QnzP
+    nata100                 rDDZqvHR5eDvJfeJMsMMWMvsuGS2kQEbTN
+    a1exe1                  rEz8nTc85q9rUrv4hmUW9ArVK6mmhgUm6Y
+    metoro                  raiE52Ws8wYjh8k93dDDUqq4HwkfPhR6fA
+    DawnSky                 rarR21edV5N3j55hED1m8kxid6ygn67RAS
+    seabirddd               rPn8Azp42sDA2TCUEcnsoqYELrz1FwvXLd
+    abanker                 rMjvwaQZT7yzT1beNnmuvNBNh9CArEZrQX
+    jinyan0072005           rEXS2HEMWVHVBHVtFkAtkXYEUCJX6Hu2jU
+    Painkiller              r3Wz7VNuwsRksJoyNFqozHWaVi6KLA5eaW
+    Beetle                  r42E3gC917q3423dXkteZttsPgJiuA1yCT
+    gadman2                 rMrCSBgoxxMPFvKaA4y27K5UpDEnWaXtan
+    sert                    r4XE8CHqw9u3a1x93kkSs7e2fKbjX9WiBR
+    sunshine_sid            r9DfWHCfAGTceStc4EfyHzP6sJEjm1KaQ5
+    Mario89                 rMb6rCVKG8rMzcyYN7b6uLSVENPdExf7hy
+    S@toshiStyle            rD8QWE39G2g5gKCkp7qDLmLGs1j9UwmD4b
+    rontus                  r3xQ3w89LkFtXAeqTw6wz1zSvYfhwKK6U6
+    pankkake                rsNBYS6DhLzVB4feLotWsSc2x2ygFmVULg
+    Chefjascha              rKCSmnLNuZE6uoX9vDnpgpocTcyRQXm43S
+    Gottagofast!            rN8yK2REadaZP1v5EkLkbXF6DX9MPg3EU
+    pushyk                  rputRm79fdEzGecJz2YstNoUgwK7Dcm6gV
+    sergeixp                r4B53YYhqBDoRNM4HjTUppopHDz8ERygTQ
+    ATC                     r3eajiXbZnc3cQWfoqSKCkMVZdxgWZdrTW
+    nutnut88                rx9zH6y2Gk5iYsxiB2a1bwzXBzX11Ji9d
+    unnamed                 rhtX3vayra4qVX24zoQWNhVSCe3RsrH1dY
+    BTC-Market              rBqFFFUDwC4wS89ieypdP8LR8GyZRcxTco
+    lixiaolai               rKYoyZjNAv6EfCnWy23HhGK4dcVwyRfF6w
+    BitcoinL0ver            rLK9mbyirVNsD9NcAgTbp4TgVjUXABWtXz
+    ManaSmoker              rUySGfmkKqbiX6wuXTYPP8Kpy1Dz7FMQy2
+    dmcdad                  rp3nT3KorvxVztnHBNiiaAaVsjHizqvbwE
+    ufo                     rKSEQQNKcqa6gMDEhw8D4aHjvdYhkSs57u
+    nono2357                rfkews4RezjNVcZjfjNHyvteFX6cgokVd2
+    bytecoins               rPVbH2wCAWgT7vkznQcnTcti4iWhP5fvPg
+    zulufighta              rHSxTiyFypM9ipwC7mNV2esXCDnyoHRdmH
+    nooblet                 r4tF875MPk7kLu1PAC68CWEq7eViUNsgjH
+    enigm4                  r97Jf6KGq174KEVj723YKaAq2D7YqwNA8g
+    BusmasterDMA            rrsPT3PgFPpT6XpNNaiFHpupnZGpm1dbn2
+    rowyourboat             rwtDsa43iSg9LW4YhAnzBWvWNE8sg1nEzh
+    killzon32               rKH8dE94Smh1aJD7eAVMrmjHc7XH96vvwT
+    moltenmich              rLTyvo7CdQW7gG9wnbc6meDxqAZT1nZXez
+    susanakaul              r3dPWz5eaLr4NQEQU6eJg7mv2GvExqJibT
+    SuperP                  rKFL95CSDSSYe8Fg5cVrRcvQJNGDro6J2q
+    damon1492               rL8RJx1LtE5M6nJ1J82R5JVvMxKcsNvvSP
+    Crayon                  rpP2JGLomL6soLDiyp9M2uYxmFH2uJMYfA
+    Wraith                  rnasKMDM6yMye91htrUAg4E8uyqbmo7DHB
+    myself                  rBtc3yt15VpS62EGMTKg3YfyRTvFw4gdaG
+    jhansen858              r9FwRpQFAisUJqG3uWW4FrqhhYejtfgKZC
+    Noone1                  r45Ms6eYb6ZiaKsAtZCTqT3L5CJANuBF2W
+    samten                  rMHW9CoNnp5LLTqGtGSymVnsSKitLEEFaz
+    intense                 rBaNdGsDNTDYL2jJZvGPGvzXBNFhDmPzmo
+    LZ                      rMZVFm2f56uMPHvRm32GTrqngeAxfY7zGj
+    nabworth                raQUSRcya6C2zmnHwgySufXiuustKASZ9y
+    coinerd                 rLX8KWCYhMjwJBKbGPGDyGMpqnrFoCkx3v
+    loceff13                rhqrjjSGo6W2PjPw3vQvgHZ5my1pGUpV6y
+    Zotia                   rh3K9TjcnbASVPDDvmVhVDh3uJ56RKZDTW
+    weinerk                 rBswRoCP9gPdxfAKaD52yDsJ8hJF9hgNmf
+    Technologov             rscApLNzsmMNW3evdWDLW6X9Jixznb6J1T
+    GreenPete               rPYvoG4pGaMa8V28F3qN63eW2ZSUmeRiqp
+    fmk63                   rhTJPfU2n2xdak2h7CQC13bAWsREJbw2mc
+    fuzion2                 rhqg46XMh93AgZMAvzD6FNnYtWGYaQXvYm
+    sovtek                  raFqepqep2xDMQmABjvhYTMHyRWzQa1vQm
+    scubasteve99            rMR2xXdeFTGtobTJUrKCBwXNAY15H51rhN
+    monkeysam               rsAqmgtRQq5n87LQMrU9fSeDcatjawxbcy
+    rupertbg                rDU7ZjH2asrAum6mcGxxfNmV4ptyEfbwVd
+    Infinum                 rL6i2sUwVptjEbXghdoeQR5bkNph3TFGpR
+    Raducu                  rNaMTMoy1QHfC8x3WsnbmKN4KxHT7DMWzT
+    wolf2000                raXaG6Mw1Dh8L2SkCBKyVvHHeafRiPtGTB
+    whisper                 rsPvwSC9trpkBxmpTfinFtbC377y9mSgVF
+    ColeJordan              r9wAs5okXKPbVL7LN8eS7FTcBHQ7y93jBP
+    uncaer9                 rwtD8HdEYvXZurXTL6WhKKRyxD2n9ZvyyC
+    infonetenergy           rKKqr6FnEN1G82YXLkFgaTVQBXbpHR5zZQ
+    Fabrizio89              raJms6zbHCGw89SJ7FWvjYfFhWfuCxW6S1
+    TheUniporn              rU17Qgj5DRi5BBMpKoVTEH8PpPHf7BLSPK
+    extrememiner            rhsNgPbeqitTP8jGAHUPpegGtwMR111qh2
+    Passion_ltc             rKtbfadtCLeDVVxGiWKpbphrMNL83Bg8Pn
+    Disengage               r9wmhzfscqXYv5Wgwuf6JPyP1uXfLWN5y2
+    BigBitz                 rwUzTNh4KF6w6M7oifCnZnsDc2ERmnER4f
+    OtomakanIshotas         rG9WwDnXgNGfCjz9CnJvyJYdPnpqbFSy6W
+    DialCoin                rMtAQLccwmNdXWCtzVZ8wyxMypwxxYkz2B
+    BitcoinUK               rwpVb2QHLn82YK5TXrnzg1QsvPiBwvdxPf
+    TorHTC                  rKVSCHaookDHAjZiiVw8Cuc8iyLdKg1GA4
+    add1ct3dd               rsxq3awuqCTvBjG4mNYYZnFCVXfBzj45xu
+    VegaS87                 rwscFZRJJNaug2HUejqtWnxLBDmBx19mC1
+    Star6791                rnhuW4LEDsgtg6jzddrrpbveyBQRwE1wM5
+    Jek6523                 rajj6N9QQe1svrnZMCuCwmyTg56gZ9PTib
+    GaliafF                 rhZz3z7EBQSHxPgR8X1RtUYJkQMfifUqmW
+    SergeyDN                rExKZGPjGDr1GE4ieTgwsQsQqJbM21juQC
+    Odin971                 rnskS1RdfmT4gcRbdFfGF3hvCXbMUpWvKR
+    AndreyPit               rcj5KSBHSqdcyhBSdTSPrLArg1Bpc9FDu
+    Gott1ka                 rJ5QejfrdQi1DVbJB5F5DWSspG2bukwDaT
+    Spekko                  rJqnZAd1FSFkU5itQyB4LpYvdDqRN9Asi5
+    michelet                rpTvibp8iiSThck8zQdAJwroQ3SG6JzFaA
+    weseni                  ra6Ai2rhHZGUA4RXsqAKK4DRmYE7LYwECX
+    freebeer2go             rPaax7T55pmQCfAzNgo53Hh2nxKgo3oKsN
+    Zoiner                  rq6T6UPPmxiPyUarQ9Xufx8KZFV9thD27
+    ashitaka                rGZRTGbrcRaXCtG8cwwZS3fyrdXEfwCAxY
+    forevernoob             rGEBE2aeqMkvTDpXU7cnkUD5GeaKhm1jYF
+    silverbox               rBHznLwZbQ7KiuPbQuWeXp9zt2pbv69tgQ
+    vphen                   rK6mPzN5H6EW7SCDKD4aVpzj1Me57NZpVn
+    esse83                  rNRtyLLs7UaEDrKSo7DVW1in5r6HMimjFy
+    escrowms                r4igA19vHFjhj2uLWPGNh2tHAseADpVtpN
+    Simran                  rM55Kkr6TGN8HvsXSJkX6WH9JeRP6KXAhq
+    Pythonideus             rnfYbFbgSx2mVuC3ZUkgQnuLJF9rvpZVSS
+    mortenh                 rDoi1aAv9h8yKNiFi6KnNaFm5SUCNUo3kD
+    gmannn                  r4GTdNRXKgyWb2EofZ2PehDXwZRLhqADAa
+    cryptocancer            rwuwKiphjmMoNvBvLtdPujPbwUyxUqBbjk
+    gwern                   r3XRvQMsqRg9S2ifzVtG8FxtDttqeuFER2
+    Equilux                 r9jbjPw8Q98VXyrcU7Uby49XRtLj2gRiY2
+    artinet77               rnVQnrowaSLFpH2THRSZCMYuAo6kJhHCTU
+    errer                   rHNnprjorK6hxQ2FxViPeHuFB2hzubdGyy
+    tynt                    rhSBQ6DA147vwSPnfvJjwJzqP2B6vcDon3
+    durnkenWiz              rPz4xmuM77WpxURVxJQ8xBH2cL1T3FRdzb
+    NorthChileanG           rKxEXdc4MEFcfV6ngFVZvV2vtsmp2bhJeo
+    zagdag                  rHjvEfMqeJZSPbHkVXfNkXDvKWs6WKFTiQ
+    nookiegirl              rLe7V13USewW7BGnHQDctL2opDUkUQesGw
+    clickme                 rDSAi23CLtNW72TMQ9Jyw1iCqWoTuDmd6M
+    AstuteTrader            rw1TMCpMaUdtvtq7S25Tg9dwKwnjNK37t7
+    Onichan                 rJAaao3fWNDNqRcjuaaJiyRXANYtUKGpx6
+    ImI                     rEzLdcu9eKfM2cqkEqaDwohyZYv5Zv8PDg
+    pokergamer              rGJgTixYMVJy2idk7xWw51qmdQFzRkNFYP
+    jfourmo                 rLWs6YTVqHvr7YG7ZjtP9Uz3gF72o5NSb4
+    cc                      rpYuRxNLtJzBLaFn6hN1C6zACZCsie98Pm
+    ndevices                rK5KcGpq9YcUyhsGXzmPKDr3ZmZC3okDTY
+    cb                      rJaJRRjKV6EmsS1Q4aP4Ve5H5Dc8kyWohf
+    calmindifference        rG1xUQFmSLPKgEUyjh2PK3qMQvs9M4cviJ
+    notawake                raXrWUk5qbTyJkVLejcZJnAAqX4pm5x5X4
+    owenprescott            rHvmcvcrmPfcqWgGnDa5URYeAMytPw2UGS
+    goebat                  r4Qa19t5u3tqbSHMA8A6sLa3LFkNXuMjJX
+    Jan-Jac                 ra4So5fmVWRdGfZCeCtwnXZ348MzKdC4YT
+    kevzor                  rsYtDLt1D5N8hXBG9GGpehyT4yvzQqVvgz
+    sflicht                 rLfUdXU79ior1TxuhKmozd3QJaunyGnNva
+    idny                    rhrbRLkMLTJfibuCo7Wc4rzv3q6Z1Hkib6
+    nigz                    rheuxnBRSDtD5jyeT9QfYgyaa6J3DATL5i
+    skull43                 rwwHk488D4N5QwkyE5Dx8oChGRLnT3bt1y
+    dotcom                  rDGSe1TiNmBvsaTa698Ytv8iri4tQM2eAp
+    compota334              r9crWHwAgvzS1DGMPDrh6SNF21FX4SqCVG
+    spartacus7              rh2Txy7xrKeTzAfUNdUCgcMb9grH8eKF1A
+    daghaei                 rnVsYPHo7ymMAmPPkKDHBf4m26AmytyfYF
+    redemptor               rn4tq6byRBjEq5hJzCoR5i87LrJhdv41jm
+    jamieccc                rMAQ8bV8khB2aQ99JJ9xXmhXHtJ2HYDXUE
+    dopamine                r9mie1gvNQktrXkQgm2QsxHdZvrPn4kuch
+    Darktongue              rhVuXUeo3bm3ahnjHDzXRjB1BEnbs7DQhg
+    minerops                r4AkceiXF5v5xkpeCf8pJvtFkMRiGrodgY
+    jeremy                  rp7GA8ns9xtb2aHbpwvyFWWRz95n4bVMBG
+    TheFirstSearcher        rLFDJdNHhiNjBibzB9fFuKKSVcMRbbd4n5
+    M8R                     rUutj5J7Butsi4JEfqCuQZEVbSJmRRpwNi
+    hack1                   rTd4H6gfzbg1YbAih6XQuUa9MsdVsUiKp
+    BitcoinBonus            rQ3sQj7yYbrPousXDQXvHbZpFKAmvJvh7j
+    psilan                  rUtVY8FutGCMtJWh7YRWvifJx2eaamEWzT
+    TheDerrickJ             rDTGFAF3uYPMcauWhvX3ELQB8NHYhhiCnG
+    Sykotic                 r9EfrrS8sM9EH8JUZfrR3kTQ2MCJUfYcyB
+    Daxia                   rMh6tiP416pEyKD7ywmbf4YUQUeuwyazJn
+    838901608               rh94Mw4HE5VKYBRPp5WssQ1yKApTNz7yBA
+    Ardant                  rnPTbc8F5yheTL6zaUCEbWrsuWRM1J7tsZ
+    x12345                  rUH4WQECSowCm2UTiKexRSexrcUKwUbKU2
+    manfred                 rKkzVZc1F8UPrQnMNDnnh4UoTzHuByDxCc
+    alexeft                 rsPMAp6sLERPcaKBeC5Ca7nYCJoopvBF2w
+    Ferdinand               rwTbLv8rNPrQ7ynwcwDDavmQZuomP1JoHw
+    jrdough                 rLfaLupWYd4UDGMzBfaKMbnqSc3fSMiFK4
+    limingz                 r3VckzAH2GjYEZXxBsXWvtXce21XBALCM3
+    xDeathwing              rNt9Vh46KsKUnaaLERh4R1n1Wdeu8CQFys
+    TrainWrekdBarbie        rKgwZwviGc5HjKrGvAa7YXqZrHDnFruzic
+    claycoins               r9bUh5yEn5RC5vCdvpHAko4HhdtSaBgeJc
+    JohnDorien              r4V3mCHBrmJnVjdck8ncM9g79pSDuaaMGP
+    MrD                     rwjuw6d9L7KaUoy9juHxD4Fxv3Bwidir4j
+    shcnard                 rhZTmRbUdk7CsUPPX9EL1fuDtxrAsP4VXK
+    CoinBoersecom           rPT34osui9zRgpxYbum9ic4UL8BScaxfcM
+    kathir                  rN7uETYXFzMkvEysnXAsP8EomvoHkiHy6j
+    maximian                r3B5eqGFAHKTD74sXajnMhmb41FmBtb3Sa
+    talnted                 rsFjS7dFJFfrJey8WZFWyDcpafBMxC5cmp
+    gafter                  rUc7XTtNhH1shkYDpLKN95RinmKzpV4EGh
+    cbad                    rf8VgA1RpvCQt4UysumixnH81au34QPt49
+    apetersson              raDYb3XWb2jgQp3z8f3A8QctTm7bSzdHsT
+    SoggyWaffles52          rnjtZP44ZaoLVK89ZMFSnTwRVF3REdUMBa
+    d2cc                    rUoUANgvfSmRzW98F9zvXShXnE1dyQvA9M
+    Kryptox                 rwqS1AzYXLCgPovj4WJGW93UjVNPyG7gwJ
+    matt608                 rL1F1vCRs8PkYUxAMxvUrkQBZz4SDYWVXD
+    Metatron                r3jRFUUSaK3hTqe5spLohALg2V8XxLCExD
+    SylTi                   rPcLUNkHJfqDeDQofupQb45S2Cfgr1uXsB
+    pacolg78                r3isrTZKqM32BDoGe7iiozdnxZFFh5va1B
+    Andreev                 rLEtq1ruriF6fpY7uqJS24nsq91LZ1HGCz
+    itsAj                   rKvzf1LBVvu7KMvgtH1ytrWbwomSRYyf9n
+    mantler                 rDqV285C6uBeo4FNjJtGoyY6AG9xTHF47W
+    dragony                 rsmsUQ6xCuUpWBTy2HfDwex74WmSaXWNKT
+    mvrak                   rELVUh7ort5qRi5joqh7ijnpXACxeckZRc
+    AZIZ1977                r36DdBsTNCyoY9REwwbjoVqeV21jxohpqR
+    quipu                   rMeKCBugjqqMudNc95weo6AGhVvMa4xgBS
+    harrysown               rERZtu5oHNUoBmU9HEeNCtJBqP8rNHsqWE
+    xaidin                  rJtFSUa65jjYgqJ59YhAXLTXDPfg6X9upZ
+    fingerpaint             rarD35Dutb7pF1ZV3mc1HT3MVP68Ct5UqK
+    SergeyIvn               rUxHcXGKFSnfTdoC4p5gd33GEaZA5p1EFK
+    KeyserSoze              rUgvwUS8fSHAcAj6dnN5T1ShcVR6v8hfh5
+    gog1                    rLimJCjgkjJuUWug37Z7uofFVpwLehUgUA
+    ghegheghen              razhjDAe9EC2xs9y95wSu1Kgdn9DLdvrxy
+    durrrr                  rnEfeFXgWeAKkFTMPEnvkoa3TTouCGjz6q
+    jack22                  rwPL6prTMqKssNYsa1srU5aqfG8o3xHT3b
+    loga                    rKKw4vkGjjBN19CYDn4S9TaS3zrjHauqnK
+    nomad_cz                rMRU9UMRGKXspr98nenJ5pdNLhGZkndFRJ
+    TheSAS                  rwjfBa8bFQmsXVyfktC29MLkV8q2xvfZQb
+    aerosmith47             rnVtGfbW4dsAp9PbJm5yCwmfcQ3GfrrKaH
+    Timur2013               rMEZ8AQQ94o9dg115Z4FyyA6a2B4GRfnrL
+    btctozar@gmailcom       rL8GJN7tH6LJXPJuAmHARNBCMPPmYs6Ret
+    tontonyaw               rwC5qqeESoNnhqskH8xTmZ75TCvML3oW5r
+    stephwen                rK3rFn48e55EqF1Tw1TXXNXppkesSs84dC
+    tvm777                  rpEBzZoWZkptk5e9hcchuSe5sw31bFw3bP
+    maxll                   r3FEMiHRANJ2RZ6q7eBuiVBL6w2qhxcwqd
+    tubededentifrice        rKEbam1tBXiUDz8pKcZjb3Ea2zfNBrckCJ
+    Lambert                 rLBjB6QdstU84z3H62Mk25emwLkKnWDW3U
+    xrpbuyer                rPdnYVxk1xBTTHMCb3fauEH1QbJhBwABrK
+    NeedChangeNow           rKHBZKYcQiSTBWPKMFxrGk9v5czUNvF8uH
+    kelvinhsu               r3JNJUMDM1MpbsmUzrUDFG4SJC3M59HkmF
+    dmcgaw                  rUXa4whMvepLXXvycv9pP6zbvpRzKhvZYz
+    Leo                     rh1VArKTVz1DqMWMBrWX93tiijr96Rma78
+    redxs                   ragBxxuRS6Pk4GtcD6TTBmMivvYSYCMc75
+    Noise                   rKAa1iHFuZx8UdT49oNVGA99EpEtrWKb3n
+    MacRohard               rM4KpmWMaqgokuMSQbyCiymJQqCZ9KkQSF
+    Netinterspac            rPU7as8h194ybTbLLJB7HyvQqwPP3G6MWx
+    Sakuro                  rpMd5JhSXL7SwoeG7HyXP9bgbE4ATWUREp
+    lettucebee              rPTRqHaQWk3c5U5oDbfxPKaZobFHut5sVT
+    aurelio                 rMGyhKWfpLqSDn9p6G53AHANiawT2SEer1
+    stenkross               rav8GQ74M4HxuLEHP4xjBR616biL3hBJ6a
+    graceza                 rGVohK2qHGpFHHuK8CqhFV1hn5mhnCH53Y
+    funnybear               r9ARXE7YM6XonaV5ruruB5zeizioBtVxrF
+    lechium06               rJdjxW6YswfzLKtJKp198D7WYMYTYRsw7n
+    smiley35                rpKP9965GmNuK6v9C5CRFigwWyzbE52iW3
+    maxpaynebupt            rL8GHwX3fbcteEFQkEZRijasYHEWMDUZN1
+    iikun                   rDuZKp6536rf2cy42END7uFuGXgFms3u4x
+    shadumdum               rPjUHjrwTJJ6bF8H1e9ehB88V1qJ2LNLzD
+    budsen                  rGP2aYFTEnHcdkR9zSQDDwpLCZa4ntZECU
+    daking                  rngFiG9WP8DNGbvGwCoZE58tUeQWeQGy6P
+    moargame                rJuxYWrNsWzgKa84nBxqCvzgP2J55SFBz2
+    veryaskin               rGsL2SpWd5MLPjaVFkzNYcQkbK8akpRVLm
+    kentcummings            reXYFKrpFzzdP5vhtSHReEz3Vc9tGTATQ
+    mill0601                rM7fNdLoVBZCdgm1GEYFEwkGbQtmugXFo
+    mosimo                  r4Pcs3LQvFzr5mxYxEc9hhrBErXMXWs79
+    MyJonzy                 rKi6jbjatpsL6oqUYuRG2RocsxeUPgdJmQ
+    starbreeze              rKBt5W7XGbQsK5hWWoVHJKndA9bj9i1XHW
+    capnnoe                 rH2juTpQEqyM6hSRMWpA8d7tth1hQPS7n4
+    Varyg                   rnmg1qaHa5NEnsamFn8BqMjSo2BYda375e
+    rutrum                  r9iaxQ7F4r9G24TH93kzJDJezfGEaNZ2ys
+    wowc8                   rGt2VxSQH8nx3aENEH9f4xUaiYQbN4XqQr
+    yjtq                    rKExA6RxYVudHtxqttM9o13F5oQyXw3LGa
+    Aid79                   rMriVV7mj71JkVX4DiGiDAYPdTnd9CYFM8
+    Avro                    rJbXxEZStBu6TwnKmjZMon7sovPwHeaco1
+    kevinjohnson256         rKgn4u2HKyywq7g2JMpLvs9w1oa98xc48v
+    chymsunsun              rssgbAeWVRJitebUzyWhxpzr2u4RDzG4LQ
+    MarkusGHB               rNtck8qFREXZjf2kh9nH63XVEPmFSnQFwe
+    HappyS                  rnBLH3TymvwgDCkce5FwTvmscut27VbBJt
+    Kazu                    rMs8vFPgHTgQhb9Mn3X3dcD3SdoNKPQzqz
+    erwtsnert               rKQvA8way5abmCiiEnAEMiCmGrYqz38gEg
+    Stemby                  rBBuRzdRHjKCBbKB5JQaLo8YbtbNvGFtK4
+    kolobok                 rf7qMK3JRBYkcUhcETguLsCsJD6xcwqi7c
+    fjl99                   rNtcmEdF9JiqwjxoXKVbZgtSwEaHxwQvuh
+    4bit                    rQGA4KzkJWDYkdW75A2Wj1sVu5ydjgqEa
+    jeffreylee              raQ5Lk4WwEzqYVy83Afwq2FL6vKTaN7PQ
+    Qu4k3r                  rJJXhbUqSo7Pzd8xAdLTFoVcbsQiYfRnKi
+    huang0655               rGe1ib4NhijoeBerNsLjQxzxrdBn6gh7en
+    coinzman                rLa5cj9AobvD5RN39kUMmFJcjLG1oisXmT
+    RainerX                 rn61mk7FZ28SMnfu7pb4DuQx1PAHZ1SzsM
+    bradleyni               rPHAgFG9h5xgGkmErZKUiqRPm3TNDcLzk5
+    bengx                   rNPGHkNW4vGgYXucd75pSxvdSK5ktEfbM5
+    dan99                   r3syS9JRQznSa5tdFvW55rfc8g6Y2e5swf
+    cycycycy                rG1AzeNxscQBvcJhf8t1eKAqa2fzxWPnYj
+    ForShow5                rP68uto3ED6gvdF91WBftjnh4sPRKp3bTR
+    elbrus                  raobVBd2orrkNieQC1MPmZVXcbuQ3Y5Lqq
+    LorenzoMoney            r3wiLPVGdNq45xHneDB5qyvdpuW4rfQ9iv
+    bigbeninlondon          rDsHGAZifWrFU16fodkd3aDxwk7dfx14UD
+    yuchuanzhen             r3suSDidbJXncTBcaox5Ke7Fsc1j3zQnHK
+    c-rock                  r3QMZJLzhPWSGHbgwHjamktXwtfsqTcVPo
+    Rawr1337                r4N8dYjzoUfzLe9pegHxecVepFSbzuT7Z6
+    Tisko                   r3uED5mrGB48EnAmsosXvHzJQNoHfzKXMi
+    rezurect                rBf2FSnokMXegPiYk2Fva1UZrB2RDR1Qhw
+    dexX7                   rpLt2dWKgXYqYK5EKpW4xVnFZz57fybuGU
+    BigTimeCoin             rsgCrmd5aReSpx1TWBSULtccSYRU1YJkv5
+    TrinaVella              rh8aEqHa72a6rr6jVGdjLnNsenA5PbZv7q
+    kritik1                 rauq8C6bjeeX8Z2pKsULbD8HYbrtJqLrxB
+    iooiville               rBw6aAWoYQtGc473UP9z9EF8WH6Da9wfJ5
+    Joori                   rfRaFN555bk4Z6jcLNmBv7j6WbRPLsJMW1
+    thepj                   rBR9d6F7m7Z1LnSB4F1qgJcgy7FacqL2gB
+    cornflop                rfnGmhYFD632xKobqXkpSNe3sJPDQc9691
+    Panchitoboy             rJJY8Zd74KK2PYteYFt875DEnMnyrsd8gf
+    DiCE1904                r4aBnm8dLLwMchBvDN2R4yHa5DEfJf4mrv
+    vitruvio                rUvu8Rg6ukpmsCrWB5NLkgRSX6aA75V1zD
+    dumbidiot621            rGN7ydGUZSxZgssbCbH33pYKQYES9zh46o
+    awatson824              rEVLTun8YZ3vwVWnNFnSeimyBv3bQQTXrn
+    TwinWinNerD             rfww66c5J7ck9Uc5zoZWXgbLb8FC52zhuB
+    efodix                  r31NYyPYdpCnUbWh5A16esdaEKenAGPTzf
+    bcbigbud420             rPLu4gM9vC7Va81rQximAatyLeD9CFajRV
+    Drigid                  rnzig17mWfdVGH62rDuk1U6rMEqUQQeCVP
+    mig38                   rUnXzZLt5nZwZ6dFuRdGu3Fs5WKp9uzeVv
+    Karasur                 raX5Z8n5HP2QH8cN72yuwSdjpgYdRTkcHC
+    sidwa69                 r9wZq2yx1yoCAt6thvNREGE5778mmC2sw7
+    Xinruilian              rsRpAcCZUH5QLeuXACp1hNDi9maUDb8mWJ
+    jetdude27               rMSbexCb9vcLeP85KR27Mpa5JsEhUb3qre
+    almwaysa                rnt2jL3KcHTcYxhszbbdax5TLY2ePDNpvX
+    stephanthe              rPLu2tJo5VAiD8mTeT1zkYnkowzGs71JiM
+    netvope                 r1cBdJ86pgF4caTB1QdokyunM1KT5qtQZ
+    Taxidermista            rJf2K9J5e8zenpoGonjxcWgAJDET2GpFjC
+    dburianov               rBVkMTmRWu8vRDRzoAuJpmhDm3smxnguku
+    mrx                     rEtdUyA9zKWXB5T8nByn4SdWe3DuztWnRW
+    freaker                 r9Zf87Pcy58zxgKt4gQna7PoNcLzzZsTBZ
+    davesmith87             rBsYAzqtb2yZnRGTQLeLj6kHyrnsNu92pz
+    novalis78               rUik6o8SBVZc8EUBVkSsyDCFPZDfr9fKcF
+    zrg                     rnzX9gfN6ebbErisAD4taUZU8rDeszCXQc
+    jimmiej                 rD7nh6956omBBk2C3mJ7C8Zj91VC2SYzAY
+    jimbob007               r9SuV1DbKCxcMQgARZvXrD9WH5oA5UXBc1
+    g3monster               rLK5otSPYvxm4aNy62XewJw5ZzVthfEjGV
+    LurTU                   rKQeQugf2KxH7Mg5MDVPXgv7dwYVALFhdg
+    Noogsy                  r9Fo1dSQ9cRRRkvDFzp4jNx66iuRNnydEC
+    randombits              rwiqVpaHaNtEpCP3Q8cYUAd15UvsJ8Gdmc
+    CryptCard               rJnxRcKWAWkaiWRs7V1EsWJgwM7jR9cDPK
+    chiropteran             rGhMo3jap3ZRfoPCKb7eRhDDfzFqYwj2JQ
+    cokein                  rhf4gEu7jkkVUyDgWY7GyfLpbk2MWT7keP
+    giuseppetararà          rL5dtrRhBAvCdS3K418YmoPQMTZ9H3KykS
+    nestor                  rJbJynztwpWL9mH6BV8KiuuWg6VZbZazYW
+    ClicknBeat              rG7s8exgffHK2v1jm3jkJZ15xE6QXQjCPd
+    Amph                    rMv5TZtH9RvvjEyyyfMdJnmHSNXvHifCEL
+    wonko                   rBrmfwefHNiTrfEqNGorfj3YJ33sebFWkn
+    morgantar               rhLqCjyHHtTDSrywigqyixubh2cMRzx7F6
+    JohnBigheart            rHhub8JnUgUL274DDKWt3cFT574zvWwknp
+    cyberaa                 r9LiixkcnsUYTTbpkZTEwxXxdtS444W9Fo
+    elpenguin               r4CGEQELnXKzShuaYPihHfZcePntcHypVi
+    cchan                   rNQ2amnDTPNwS3hkPu1RYdEBJM3SHh5v7D
+    colour                  rphtXijsBLBRdSznHyeMF6Cp15nki3snp7
+    moketillos              rNCDpp4gMesLvSXz4mzH3MA24P8PP4iYd3
+    TheClarkster            r4FrYbVcvai3q7wfmr7ineyqk7ixDDhRmm
+    Bitcoinassasin          ry4kVk76nRTwo6oTN5W5nwj1YUgtBWoRS
+    buddrulez               rssHfB63pGTP72SteP7Y5hkxkG2E5RVg3N
+    runam0k                 rneV4EHoZBNf7gY84HgVo7T2zi8jTTqPbG
+    nivnambian              rEQkxL93pSH81vwiwpUEQ2iR697EuV4Wkv
+    brenzi                  rH77dz7Rq79MTAEbzVMANREKVvRAhVibPx
+    stan22                  rNhvaZiTNqvBc8Z7jPK4LRVXUvG4LjWySX
+    ArbitrageX              rwBj9SkLGL8nCNrJEpKXgy8CDTY1WNmvC5
+    tymm0                   rsNqHcqjQbkrSzpu2mPxYETaCosQrHX1Vk
+    Anillos                 rGaE1H6op3GBLLDLH3ryzbvndkZJ5sCj7H
+    elCamo                  r48qoQiwR9VNRE3V5PFMx3uz7C4LCZwbUt
+    betafall                rK63rW8sEPVGo6uFcDySBkzwGeMrdvmTSR
+    SamS                    rL7mRCDYBXsVSM2obdvEjwft5fPUmxv3ra
+    Bastone                 rLRcv7ZpSipnexmowMAHz7yuaBUbYTsvBt
+    ScienceHuman            rMhD3pc6jLexbDXSVwavtidDKJVk9otAQ9
+    RhoDelta                rL8o61c47YAGfbfYibKVtuwJrU84jetYgJ
+    drama247365             rLLRXSV8CAo7UBA75Qsy5AjvtNCSE2eq6z
+    gsmline                 rQhBzP8Rt2LDj1mj9Ne456h3Jb7uf2m3Bf
+    arcticlava              rDp4bLQCcDdcQYNuvDC7gsUwdYwBJXnjNV
+    G_metal                 rUvku2wn5tgcP3nAKYHjj4ZV9Nt5sntwnN
+    Somlba                  rD8oNLgLwEdBfQjuakrpsRBPMRNgX32hcV
+    jarf1337                rUpNB668BXRqTwLfs9cEx4BRDKLrJWBZTh
+    Silviomort              rUZSGsvdxe4zDMyjR3zG5ffh9a8WAbjBa1
+    makkuto                 rpthn8ZHtTCFzSWELzpJ7Wkwa7fTVnzJNk
+    jinx                    rDEdjWMakcCibehEjm2az2Rnbyh8Gw9THn
+    htl84                   rGmuKPeQSwan4LNiwrJQagTxuNkzWjnZ5C
+    tamehuang               rBu7D3V3uFVsWkC3jFz3JiUkH4qifxFcU7
+    zargon                  rGWy6QRZ8gd58rzHziKX7D3E8gAnZUw51V
+    cem4ikov                rBe73T2Y3mFkht2wk4DQuCK8UYXXrkYXSZ
+    mr_gocs                 raJML8YeqdgyX1fnNHgqvgyXaqNeZpSgyY
+    poohbah                 rnPN9BKBemz8KCMm3hw24Ca81aoLVfv9P2
+    Conurtrol               rHtZzfJGsaaZaCjVBfP99NhUEGUawvwWt2
+    ixxi                    rGgEwKunXUypZEXvPnyM6bqXb3LVVVnPw6
+    gaboo08                 rUMiVyvJa4GP1fvGNoodiaCR7BqT8o7vFN
+    yomi                    rurpENAyvVoMTnVfmk2yWtPbzZ4LPmmBP
+    wev                     r4rb4bA8dcmY31z2BELBcPuLdhLjrUzi55
+    emerefer                rhhdJZzDZma4e5TUdJX17EbfWkzadwF1fB
+    kevin                   rGT5oBwVW2zodMF7pHB6F43SMXyTBfz1Fm
+    kcobra                  rJaPsaW64rauXYc7tCGqHyD5RKBAMNsixK
+    ensign_lee              rEpzZZPbdp9cjEGSWANvbT8HUP9DYdxaD3
+    Isosceles               rJ3uua2Y4sbuo7c3PH7Wyu6P6wLZBqoreC
+    scalar33                rMwjpxyXYX1S8X1Rg46wXryGQEs2vrsWWq
+    bbxx                    rMxB3Ey4vVxTqcYwZLh5ZLjpvu1mMqyahB
+    RobertHood              r32XWEJhv9gGcKyWASHJuReuH2amWXKh3H
+    wamatt                  rK9ts84uzLDFLbzgapcaUQ9rCse95oNbTT
+    yuzhe                   raXUJNzu91whv9ZysvjCDRGeNxoKzjPha6
+    bpme                    rDvFEFmtptehCtzkZ9GGkTFSPUHbjsbsKe
+    shaunb                  r4d4eZL2GS5MSEGNoHhDDL6SP37TmbWJK1
+    livvo                   rGbLeJijzgHHGHKQRMDkPCSEX8shNSLPDZ
+    miner007                rizgMSxptUwrQ2a4CwrQd3FtBnae2DzdU
+    dmelj                   rnu3eDreVmMgAq8qWaic6xmxQEJYn3jM8X
+    madfrod                 r3zRRYtfLZtcysr4eUkAZupojP64wt29Wr
+    jhunzsl                 rEpUejsPfP9vVkf5UjpKnD2C91mkRUPxwP
+    tickets                 rKbkvcrGfCMye3YDBNmbr1Z39VUVzXjMzP
+    de_xt                   r4oxPkzEKwD138jgj2YiQtTBzfDM2kvTwy
+    haharadzha              r9S5o3sdv9cHDWM57B9BZyNN2TcFEKb39X
+    allerocco               rN3o99Z6Xi4bd9oq9jiGi7Q9EjMQ9mcBm
+    Ailure                  rBYrFtJwkSoxpKRjum3LMCn6RTnr9X3v3f
+    dextryn                 rDi7xso8GtbJv6BgcJtjSDQCnQwttrGvPx
+    qdoop                   rJWJWomft8uKNntjB3NsngH8dKbyYjUzbB
+    sidelsky18              rhmBg8nCw4NrkCpNfT7g19thFXUWbgexWA
+    pistolslapper           rBeAYbqaEXxDgo5MVPv4L9pcbm5ZjWL5af
+    em                      r9Bc8avUUskVf7eRLPGyYSrQfCNmc4k1Vq
+    firian                  rBg466ainGokNxxqtNxHvnDuC54gTXaRvw
+    ExhiBitor               rJMzNM4DuYqsANuyKYDFKxysRxrJTs2hhx
+    redditgirl              rhPdAAj3R3CBqzt3n2iLK4CVRWYvP1WzVk
+    ShaLab                  rJgARhqD8eDQTMBVbzzHZsoC6dZx2iVEwU
+    JamezQ                  rp3xdLHdGXTbWxubcVQj9BKXwFv9zXaj8z
+    BansheeXLR              rKX9t98CoVWMtDZ6qw9MYNB86XZ4Pa3wZP
+    BTCLondon               rH5GpH7vnAp7TRjyMC2Nu6N9qUaFqmnpQ3
+    layer1gfx               rKCARoSKEc7tXhha1p5SkzJD36ZxiVFr4N
+    Andrey77                rMubRMNLeDn2be5UTug3cTHduVK5ri3iAV
+    hany103                 rN5KotT4MpCwHaqURsBFYzJSm7oyuEKZcS
+    AviationAtom            rB6t6hjQHkbY1Z2AELK3xfpdWGgNRVY8Qk
+    Heymdale                r9KHFnjNHzmZW2Xv5ssUGdmj1XLNw3TVGx
+    slcbuyer                rULpBx3E4Mu3xgn6V2VgM6hk8UD3qXHFB7
+    drader                  rN3hs8QtD3kAjFLb2vdnZ7swtQN3h6ruWK
+    AbraxasCcs              rpDBP4WwZneMPACMyC1CgmGiiprn8atgBc
+    WhiteShum               r9i94FTaxwTbZqtixN1fBHtoDUJdMd4E7k
+    FCTaiChi                rKLySpRy1C3WXkUXtDXqk27iFDBC1riEHq
+    Esperiale               rKUP5JkjQwDkW9Pc2aFWrCV82tnN2NDXrW
+    //v                     rBcKZCeXRi1ioqr45n6BTkHs9ZwyWWTNyG
+    xulei                   rH3MALAHnedYos4k3eL2Srt2mmPDDNvgTU
+    SystemDisc              rsSZdK8vtpgcEexL7FwnjiVemkCvvCsr1j
+    revswim                 rKcyR1YDLA79YUQEihApGEpNDgp3HceYrY
+    kendle                  rBqgMVJEwLCpcMxnDs44GYksoKZiV5GHG7
+    kochmann799             rpQahTx1ReGHsCt3KyXCMJaJuxbq5Uup4T
+    DJTrey                  rfQ7Y5zYv4K3hQrpGXUvQfNJ8WQBNkUxwX
+    wjsqsn                  rwdUwHNmAFqZUyRQnirMNJosMnxnPjeVoh
+    Intoccabile             rQfsSK2DfWoUj5EmvzF8PirhpFXmfjUadx
+    Noitev                  raQxuon1TCFVn7CYdiNcPZWcniDRoGP8Dz
+    fredwu                  rfMvUnn4uatjttg1kSRDLrkvZaVgwKxhtD
+    spark_li                rwNjtRj1pp13S8Cx8C9bSWwC7VCLDHNEFH
+    tacyf                   rEjuRPsr9SATXRAXHPxygu2FCDR9NFtW9P
+    stevejohnson            raraDJnZcJnVkC29HN9LNJyMFfqGTYjjUY
+    AndreyIM                rKBQdVuVjZX2ffwbigsZwA3dEGebikYMkb
+    Ownski                  rs839RfkeFSAsu3yTnyJKPxXU7VgmWoUpG
+    mr_lambda               rJW2p21BBKqk8V8u51XfMSjQqVfKL5Gi7q
+    BOARBEAR                rphpkn1zmukkNVhjgbxWXZ31pVgWtATVC4
+    bossweld                r9mh87k7dHJH1XrNzkiQAMmqzShzWStWj9
+    JPitt                   rawMAJPAvZtCVH16pRvc6BzB3kjuT2ng5f
+    jchysk                  rPDmPAfbLbajJdSbyABH4bqNPvFDVen1wf
+    xxmalouinxx             rsATthiaV6daDX83oFgHMKHrDkcA4ffoRX
+    friendsofkim            rKdHs3uHxJbKTVGh8dYo7QpaQchLcSpNKJ
+    Cheater                 rBvPHohoCWBW8NE1bVZHN2zgXQYNnBGZUq
+    texaco                  rf4a3J3mr54bJHLVGmN1eneQ4Mbr5P8Gnf
+    btc4free                rhdpG2Q2qUKvGR9SAwKbczydK9rhWFSLTi
+    krysta11                r37sRQzpkjA6Foe91wPpk2yen9LsnfZ17Q
+    twinkl                  rPshkhLtcbnJWSWUVUJsAEr2pxfDADM2BE
+    somedude                rGJnTxUJer1SpEuhPkMBgF7Rabx1qyZu9e
+    Crukkis                 r4BCJ3RmWJdNi4ViTe3Jami9Bu6m3eS2k9
+    bitbibit                rEQM4A47VMTZ5UtBLzR3M3H483EbTjR9Kz
+    giantdragon             rM3Zqm4vFhg8JfJLgCN3psimJsGJgpmHBv
+    Bargheimer              rHMomd4Xw17urKBR7kVpTZn3QqVeSDdfon
+    philipma1957            rPd8SQ4qqjjzr4E3yDxh6C5172yycDZGDi
+    QueenElizabeth          rMq1UcM8nMs7m7HFGuDdCYfWNZQVCTRb4g
+
 
     arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
     paysafecardbitcoin  rN4kvobWCZVSzgLmo27B4kMjakAL31pMSr
@@ -3557,6 +4060,7 @@ module Rippler
     simonk83            r3U8PomU1pw4T48cmXVahUNuUerNVcbwto
     rme                 rJeuPjq9XBZkuxk51hmXSsFmANy7JbBCRC
     rme.1               rps38ykjCqkC97BoJSetxnNertTX3ZwsEm
+    rme.2               rNGsyweUDBYVS1WLQXdTjL229WEcR2VS2c
     Ecks                rJaBUL6npe6yvoJU7e5nuRgAaMoa3njnQ8
     Ecks.1              rM88A4uPhCyAcRaB6NMgUcnXCNuwc6Jnjx
     NABiT               rLorFPMtVzutmcZBDGpAeQLfVyCL19p1qK
@@ -3589,8 +4093,6 @@ module Rippler
     weex@bitcointalk    rEjC6w3m7ENkmD9SAyFyfKgRgeNz7HbkbW
     gbl08ma             rsgg1U8UpYodp1GM3NDaYfMrZge97Gpvc9
     tosku               rBs43YZMn5QsYY9jZYcG4C3egEebUfGWh3
-    BitcoinG            r3CxMDQFX1Atq1vQN5sqVsjm3rawGSwd32
-    BitcoinG.1          rMXZoruHCtqxyjvW4k4yKZnnD3ZrbcTCdX
     Gzarcov             rEg8hTqY7jhSkeFirfE5Fm7BF72WaaCnrB
     milly6              rQaxmmRMasgt1edq8pfJKCfbkEiSp5FqXJ
     crazyearner         rBcrMMTUKAQJd5tMEsy1zyTGRiy79gY9K3
@@ -3725,10 +4227,10 @@ module Rippler
     jrlichtman          rKTYszGp7t8TeySvKGMDq24sQ4x39SdMDF
     uuidman             rGeRuDP1Nc4Qt5vQJFixWNc7EcXTYrkcPw
     rangeoflight        rNXqK4ibcwi2JGmi8dJigTuszcinC61ths
-    DividendRippler     rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX
     rlh                 rBy3obxXdW8z2K3wGYLhMeTGpAsJappKaC
     warped3go           rMKmQW2arz5oh9x1YUPyEHhfKVSCixC8np
     Yuri                rKtRDiRt7eANbCPCvACQea2pXYGcdrLfDG
+    Yuri.1              rLYUr15mAy61SV8KYdfEa9yLanPUMWCAUN
     Scratch             rHzUz3F2Vize4eG2gkSADmLyT43UcHZa9S
     Scratch.1           rtQd4MwEYwTjXXz2euhQz9LK6ZTpfr5Qu
     Nyr                 rpwjcfi4GpCFH2NtFHytKAm6qvPHXHwmsa
