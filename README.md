@@ -56,11 +56,11 @@ This one finds possible paths for amounts of money between two addresses, and pr
 
 ## Contacts database
 
-Contacts database is in lib/rippler/contacts.rb, mostly auto-scraped from Bitcointalk. It may be a bit inaccurate, you can modify/extend it as you see fit.
+Contacts database is in lib/rippler/contacts.rb, mostly auto-scraped from Bitcointalk. It may be a bit inaccurate, you can modify/extend it as you see fit. See 'Contributing' section below re how you can add new address(es) to Rippler contacts database. If this is too complicated for you, just [open new issue](https://github.com/arvicco/rippler/issues/new) with your contact request.
 
-You may want to use 'bin/scraper' script to auto-scrape Ripple contacts from Bitcointalk topics:
+You may also want to use 'bin/scraper' script to auto-scrape Ripple contacts from Bitcointalk topics:
 
-    $ rippler https://bitcointalk.org/index.php?topic=145506.4100
+    $ scraper https://bitcointalk.org/index.php?topic=145506.4100
 
 ## Contributing
 
