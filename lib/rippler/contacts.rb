@@ -1,3 +1,4 @@
+# encoding: UTF-8
 module Rippler
 
  # X.***  signifies an anonymous account that is active in Ripple
@@ -421,7 +422,6 @@ module Rippler
     Reikoku             rJpuugf8o4NfvorsTGwGyyy11Hi3j9514H
     DeLorean            rHay2wTd3kUZoq8Z8gZCmSDj1yPbDwy9sX
     neiros              rJ6byt9fc8MX5JN3rrQ8NLVgeGFRaEUKEm
-    ShireSilver         rfcxmsCTXsidkX3WXGL6wTSMVECKM8fRFQ
     BensonSamuel        rPWyiv5PXyKWitakbaKne4cnCQppRvDc5B
     Vladimir            r9cYZrZLZBEYa9ZV2CDTXAxwbq8DBsqFzu
     TheSeven            rnFjwSM3zF6LjKgim8vnEGKni629CREkGH
