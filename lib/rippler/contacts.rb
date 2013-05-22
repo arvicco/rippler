@@ -1,8 +1,11 @@
 # encoding: UTF-8
 module Rippler
 
- # X.***  signifies an anonymous account that is active in Ripple
- Contacts = Hash[ *%W[
+  # Ripple::Contacts are name->address pairs for all publicly known contacts. Ex:
+  # Ripple::Contacts['molecular'] == 'rpH3zuMch2GrrYX724xGWwbMGwiQ5RbSAU'
+  #
+  # X.***  signifies an anonymous account that is active in Ripple
+  Contacts = Hash[ *%W[
     X.FortKnox.1        rhWnKQ79moM7wkk2b9RpufDzhbHw7YLc6d
     X.FortKnox.2        r9PbKbYisKN1DSwaZ7jp6ZsKmfk1yCFAAi
     X.FortKnox.3        rJipRKjL3CNAvWWMNrbXW9sCvk66PBdyMv
@@ -153,9 +156,9 @@ module Rippler
     BitcoinG.xrptrader.1    rMXZoruHCtqxyjvW4k4yKZnnD3ZrbcTCdX
     BitcoinG.xrptrader.2    rP9Lt7SZUEErkXAXyggceibTCEYbfSyx6n
 
+    molecular           rpH3zuMch2GrrYX724xGWwbMGwiQ5RbSAU
     coin4value          rG131kWmej2huHs74Qaz4wV99dCeavo8ph
     InstantBTC          rmnHyfkJWo55AQQcp7gYwG5W1r1WjrSrC
-    molecular           rpH3zuMch2GrrYX724xGWwbMGwiQ5RbSAU
     Ente                rNEtVs4kNeESF5HbWCDZMYcWwKZ5iKwUEr
     herzmeister         rUdPvX9YN1NwyniwiJeSW6y3YKZL84gsB6
     ribuck              ra3a5cfr83b5FTh1YDURqWQh8HTbHEwdyD
@@ -197,8 +200,6 @@ module Rippler
     Trading             rNPHozULzm5nKavgXxbq8tcwAcxyhZpTBw
     Schleicher          rGGxDC8VZ7zHmVKt6XK6sc7fUziNtvohWC
     ripper234           rhQ7mQ1JJKygoxh7SoCaKNZB4GufdCRiH3
-    alexkravets         rKQLJpoBagwGiE7LVcY8YfDfE6EUREJjeq
-    alexkravets.1       rnLkaEfjiiyLKkKwUrjYxWNuysB2z7ja2Z
     comboy              rLHMoLsuLhg1Q741bHNjv7jhMqr6karoG7
     djbaniel            rNnLFDCRrAtuESodmwamAasMBZqCmkqQH9
     djbaniel.1          rQErgeGDdZ9KyWVXaujBmSSD8otUBFPbeV
@@ -4030,8 +4031,6 @@ module Rippler
     philipma1957            rPd8SQ4qqjjzr4E3yDxh6C5172yycDZGDi
     QueenElizabeth          rMq1UcM8nMs7m7HFGuDdCYfWNZQVCTRb4g
 
-
-    arvicco             rnZoUopPFXRSVGdeDkgbqdft8SbXfJxKYh
     paysafecardbitcoin  rN4kvobWCZVSzgLmo27B4kMjakAL31pMSr
     Lethn               r4DpNXFTohg1hgBKxrYv8YBtahKNAALjeH
     nikkus              rUhcZuPQBrykExj1VSfLnaeLdu2hJmVe9e
@@ -4255,5 +4254,18 @@ module Rippler
 
   ]]
 
+  # Load your private Contacts database in addition to public Contacts
+  # Just add contacts there like this:
+  #     Rippler::Contacts['name1234'] = 'rIppLeAddress1234'
+  def self.load_private_contacts path
+    file = File.expand_path(path, __FILE__)
+    load file if File.exist?(file)
+  end
+
+  load_private_contacts '~/.rippler/contacts.rb'
+  load_private_contacts '../../../config/contacts.rb'
+
+  # Ripple::Addresses are used to find name for a given address. Ex:
+  #     Ripple::Addresses['rpH3zuMch2GrrYX724xGWwbMGwiQ5RbSAU'] == 'molecular'
   Addresses = Contacts.invert
 end
