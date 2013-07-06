@@ -21,9 +21,10 @@ module Rippler
     #  "taker_gets_funded"=>
     #   {"currency"=>"USD", "issuer"=>"rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B", "value"=>"51.73532238374231"},
     #  "taker_pays_funded"=>"155154231828"},
-    def initialize data, only_show_funded
+    def initialize data, only_show_funded, digits
       @data = data
       @only_show_funded = only_show_funded
+      @digits = digits
       @take
       case data
       when String
@@ -74,11 +75,11 @@ module Rippler
 
     def to_s
       if @only_show_funded == "true"
-        "OFR at #{gets.rate(pays)}, #{funded_gets.value.round(4)} for " +
-        "#{funded_pays.value.round(4)} by #{account} ##{@data['Sequence']}"
+        "OFR at #{gets.rate(pays,@digits)}, #{funded_gets.value.round(@digits)} for " +
+        "#{funded_pays.value.round(@digits)} by #{account} ##{@data['Sequence']}"
       else
-        "OFR at #{gets.rate(pays)}, #{gets.value.round(4)} for " +
-        "#{pays.value.round(4)}#{funded} by #{account} ##{@data['Sequence']}"
+        "OFR at #{gets.rate(pays)}, #{gets.value.round(@digits)} for " +
+        "#{pays.value.round(@digits)}#{funded} by #{account} ##{@data['Sequence']}"
       end
     end
   end
