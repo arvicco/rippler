@@ -21,8 +21,9 @@ module Rippler
     #  "taker_gets_funded"=>
     #   {"currency"=>"USD", "issuer"=>"rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B", "value"=>"51.73532238374231"},
     #  "taker_pays_funded"=>"155154231828"},
-    def initialize data
+    def initialize data, only_show_funded
       @data = data
+      @only_show_funded = only_show_funded
       @take
       case data
       when String
@@ -44,6 +45,22 @@ module Rippler
       @pay = Money(@data['TakerPays'])
     end
 
+    def funded_gets
+      if @data['taker_gets_funded']
+        @funded_get ||= Money(@data['taker_gets_funded'])
+      else
+        @funded_get ||= gets
+      end
+    end
+
+    def funded_pays
+      if @data['taker_pays_funded']
+        @funded_pay = Money(@data['taker_pays_funded'])
+      else
+        @funded_pay = pays
+      end
+    end
+
     def account
       @account ||= Account(@data['Account'])
     end
@@ -56,8 +73,13 @@ module Rippler
     end
 
     def to_s
-      "OFR at #{gets.rate(pays)}, #{gets.value.round(4)} for #{pays.value.round(4)}" +
-      "#{funded} by #{account} ##{@data['Sequence']}"
+      if @only_show_funded == "true"
+        "OFR at #{gets.rate(pays)}, #{funded_gets.value.round(4)} for " +
+        "#{funded_pays.value.round(4)} by #{account} ##{@data['Sequence']}"
+      else
+        "OFR at #{gets.rate(pays)}, #{gets.value.round(4)} for " +
+        "#{pays.value.round(4)}#{funded} by #{account} ##{@data['Sequence']}"
+      end
     end
   end
 end

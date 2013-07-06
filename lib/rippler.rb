@@ -116,13 +116,15 @@ module Rippler
 
     buy = params['buy']
     sell = params['sell']
+    funded = params['funded']
+
     reply = book_offers('taker_gets' => buy,'taker_pays' => sell)
 
-    asks = reply['result']['offers'].map {|o| Offer.new(o)}
+    asks = reply['result']['offers'].map {|o| Offer.new(o,funded)}
 
     reply = book_offers('taker_gets' => sell,'taker_pays' => buy)
 
-    bids  = reply['result']['offers'].map {|o| Offer.new(o)}
+    bids  = reply['result']['offers'].map {|o| Offer.new(o,funded)}
 
     (asks.reverse + bids.unshift("-"*40) ).map(&:to_s)
   end
