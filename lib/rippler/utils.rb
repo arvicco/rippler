@@ -17,7 +17,7 @@ module Rippler
     end
 
     def Offer(data)
-      Rippler::Offer.new(data)
+      Rippler::Offer.new(data,"false",2)
     end
   end
 end
