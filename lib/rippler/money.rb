@@ -39,7 +39,7 @@ module Rippler
     end
 
     # Uniform currency rate presentation
-    def rate cross
+    def rate cross, digits = 2
       first, second =
       if self.xrp? || cross.dym?
         [self, cross]
@@ -49,7 +49,7 @@ module Rippler
         [self, cross]
       end
       r = first.value.to_f/second.value.to_f
-      r = r.to_i == r ? r.to_i : r.round(2)
+      r = r.to_i == r ? r.to_i : r.round(digits)
       "#{r} #{first.currency}/#{second.currency}"
     end
 

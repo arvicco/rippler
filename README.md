@@ -38,6 +38,10 @@ Rippler also provides additional commands that print out human-readable output. 
 
 This one prints current order book for any currency pair.
 
+    $ rippler -t order_book buy:EUR/bitstamp sell:USD/bitstamp funded:true digits:4
+
+Show the order book for the EUR/USD pair, using four decimal places, and only showing offers as they are funded.
+
     $ rippler -t history account:molecular
 
 This one prints any account history in a human-readable format.
